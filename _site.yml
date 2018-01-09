@@ -3,13 +3,17 @@ output_dir: "."
 navbar:
   title: "Jian Zou"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Research"
+      href: research.html
+    - icon: fa-linkedin fa-lg
+      href: http://www.linkedin.com/in/jian-zou/
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<zou199502@live.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/jianzou95
 output:
   html_document:
       theme: journal
+      include:
+        after_body: footer.html
       css: style.css

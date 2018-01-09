@@ -1,7 +1,7 @@
-name: "Yay internet!"
+name: "Jian Zou"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Jian Zou"
   right:
     - text: "About"
       href: about.html
@@ -10,4 +10,6 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/<YOUR_GH_NAME>/
 output:
-  html_document
+  html_document:
+      theme: journal
+      css: style.css

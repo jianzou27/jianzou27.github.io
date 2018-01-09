@@ -1,7 +1,7 @@
 ---
-title: "Holy cow!"
+title: "Jian Zou"
 ---
 
-### I have a webpage!
+### Student of Biostatistics
 
 And I can put all kinds of stuff on it!

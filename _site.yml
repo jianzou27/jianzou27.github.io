@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "Jian Zou"
   right:
+    - text: "Blog"
+    - href: http://jianzou.me/blog
     - text: "Research"
       href: research.html
     - icon: fa-linkedin fa-lg

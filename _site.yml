@@ -13,6 +13,7 @@ navbar:
       href: mailto:<zou199502@live.com>
     - icon: fa-github fa-lg
       href: https://github.com/jianzou95
+favicon: img/favicon.png
 output:
   html_document:
       theme: journal

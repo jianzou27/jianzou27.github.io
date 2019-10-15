@@ -6,14 +6,27 @@ output:
     toc_float: true
 ---
 
-I am interested in application of data science in public health events, especially enviroment-related issues and clinical trails.  
+I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 
-### 2017
-**Effects of tea polyphenols on neurotoxicity in mice**  
-Epigallocatechin-3-gallate, EGCG, is the most abundant and active substance among tea polyphenols. Series of toxicity research has showed that gaseous formaldehyde and zinc ion are significantly neurovirulent. In this research, gaseous formaldehyde and zinc chloride are used as toxicants and 0.2% EGCG is used as antagonist. Behavioral experiment (Morris Maze), oxidative stress (ROS) and DNA injury degree (8-OHdG) are applied to evaluate these three substances. The experiment results show that zinc chloride and formaldehyde can cause oxidative damage in mice brain tissues while EGCG can antagonize zinc ion significantly. Furthermore, we found EGCG is both prooxidant and antioxidant.  
-This is my [undergraduate thesis](downloads/undergraduate_thesis.pdf) and is written in Chinese.
+### On-Going Projects
+* Single cell genes clustering using AW Fisher.  
+* Great Lakes ILC consortium collaboration data analysis.  
 
-### 2016
-**Application of Glutathione to Antagonize H2O2-induced Oxidative Stress in cells**  
-With increasing industrialization, numerous air pollutants are generated. This research aimed to investigate the effects of inhalation of oxidative pollutants. H2O2 was used to simulate oxidative air pollutants, and glutathione, a reducing agent that is widely distributed in organisms, was used as an antagonist, to protect cells from oxidative stress. MTT, MDA, ROS, GSH, and TSLP were used as biomarkers to evaluate oxidative stress and possible resulting molecular events. A dose-response relationship was observed between H2O2 concentrations and the above mentioned biomarkers. Glutathione significantly reduced levels of oxidative stress.  
-The complete essay is available [here](https://link.springer.com/article/10.1007/s11515-016-1386-2).
+### Publications
+* Li-Xuan Qin, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2019). Statistical Assessment of Depth Normalization for Small RNA Sequencing, *Submitted*
+* **Jian Zou**, Jinbo Yu, Yuqing Zhu, Jiali Zhu, Jing Du, & Xu Yang (2016). Application of Glutathione to Antagonize H2O2-induced Oxidative Stress in Rat Tracheal Epithelial Cells, *Frontiers in Biology*, 11(1), 59-63
+
+### Teaching
+* *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018
+
+### Selected Courses Taken
+* Topics of Statistical Learning and Data Mining, Columbia Biostatistics, Fall 2018
+* Introduction to Modern Analysis, Columbia Math, Summer 2018  
+* Topics in Advanced Statistical Computing, Columbia Biostatistics, Spring 2018  
+* Statistical Genetic Modeling, Columbia Biostatistics, Spring 2018
+* Cell Biology, CCNU Life Science, Fall 2016
+* Molecular Biology, CCNU Life Science, Fall 2016
+* Genetics, CCNU Life Science, Spring 2015
+* Biochemistry, CCNU Life Science, Spring 2015
+* Organic Chemistry, CCNU Chemistry, Fall 2014
+* Microbiology, CCNU Life Science, Fall 2014

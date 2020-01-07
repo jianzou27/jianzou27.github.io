@@ -14,7 +14,7 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 
 ### Publications
 * Li-Xuan Qin, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2019). Statistical Assessment of Depth Normalization for Small RNA Sequencing, *Submitted*
-* **Jian Zou**, Jinbo Yu, Yuqing Zhu, Jiali Zhu, Jing Du, & Xu Yang (2016). Application of Glutathione to Antagonize H2O2-induced Oxidative Stress in Rat Tracheal Epithelial Cells, *Frontiers in Biology*, 11(1), 59-63
+* **Jian Zou**, Jinbo Yu, Yuqing Zhu, Jiali Zhu, Jing Du, Xu Yang (2016). Application of Glutathione to Antagonize H2O2-induced Oxidative Stress in Rat Tracheal Epithelial Cells, *Frontiers in Biology*, 11(1), 59-63
 
 ### Teaching
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018

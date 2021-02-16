@@ -9,9 +9,8 @@ output:
 I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 
 ### On-Going Projects
-* Evaluation of P-value Combination Methods.
-* Great Lakes ILC consortium collaboration data analysis.
-* Evaluation of Elderly Patients Treatments Using Electronic Medical Records.
+* Resemblance analysis between cell lines and human tissues.
+* Great Lakes Breast Cancer Consortium data analysis.
 
 ### Publications
 * Li-Xuan Qin, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). Statistical Assessment of Depth Normalization for Small RNA Sequencing, *JCO Clin Cancer Inform.*, 4:567-582.
@@ -25,6 +24,9 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018
 
 ### Selected Courses Taken
+* Likelihood Theory and Applications, Pitt Biostatistics, Spring 2020
+* Linear Models, Pitt Biostatistics, Fall 2019
+* Statistical Estimation Theory, Pitt Biostatistics, Fall 2019
 * Topics of Statistical Learning and Data Mining, Columbia Biostatistics, Fall 2018
 * Introduction to Modern Analysis, Columbia Math, Summer 2018  
 * Topics in Advanced Statistical Computing, Columbia Biostatistics, Spring 2018  

@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -28,6 +28,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -73,6 +82,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -362,19 +372,19 @@ div.tocify {
 </li>
 <li>
   <a href="http://www.linkedin.com/in/jian-zou/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/jianzou75">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="mailto:&lt;jiz179@pitt.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -396,9 +406,8 @@ div.tocify {
 <div id="on-going-projects" class="section level3">
 <h3>On-Going Projects</h3>
 <ul>
-<li>Evaluation of P-value Combination Methods.</li>
-<li>Great Lakes ILC consortium collaboration data analysis.</li>
-<li>Evaluation of Elderly Patients Treatments Using Electronic Medical Records.</li>
+<li>Resemblance analysis between cell lines and human tissues.</li>
+<li>Great Lakes Breast Cancer Consortium data analysis.</li>
 </ul>
 </div>
 <div id="publications" class="section level3">
@@ -424,6 +433,9 @@ div.tocify {
 <div id="selected-courses-taken" class="section level3">
 <h3>Selected Courses Taken</h3>
 <ul>
+<li>Likelihood Theory and Applications, Pitt Biostatistics, Spring 2020</li>
+<li>Linear Models, Pitt Biostatistics, Fall 2019</li>
+<li>Statistical Estimation Theory, Pitt Biostatistics, Fall 2019</li>
 <li>Topics of Statistical Learning and Data Mining, Columbia Biostatistics, Fall 2018</li>
 <li>Introduction to Modern Analysis, Columbia Math, Summer 2018<br />
 </li>
@@ -441,7 +453,7 @@ div.tocify {
 
 <br><br>
 <footer>
-    <p class="copyright text-muted" align="center">&copy; 2020 Jian Zou</p>
+    <p class="copyright text-muted" align="center">&copy; 2021 Jian Zou</p>
 </footer>
 
 
@@ -454,7 +466,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -493,7 +505,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

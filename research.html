@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -298,12 +298,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -331,19 +331,19 @@ div.tocify {
 </li>
 <li>
   <a href="http://www.linkedin.com/in/jian-zou/">
-    <span class="fa fa fa fa-linkedin fa-lg"></span>
+    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/jianzou75">
-    <span class="fa fa fa fa-github fa-lg"></span>
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="mailto:&lt;jiz179@pitt.edu&gt;">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -378,7 +378,6 @@ div.tocify {
 <li>Terrell E Jones, <strong>Jian Zou</strong>, George C. Tseng, Somak Roy, Rohit Bhargava (2021). The Utility of Next-Generation Sequencing in Advanced Breast and Gynecologic Cancers: Experience of a Large Tertiary Care Women’s Hospital, <em>American Journal of Clinical Pathology</em>.</li>
 <li>Li-Xuan Qin, <strong>Jian Zou</strong>, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). Statistical Assessment of Depth Normalization for Small RNA Sequencing, <em>JCO Clin Cancer Inform.</em>, 4, 567-582.</li>
 <li>Peng Liu, Silvia Liu, Yusi Fang, Xiangning Xue, <strong>Jian Zou</strong>, George C. Tseng, Liza Konnikova (2020). Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data, <em>Frontiers in Cell and Developmental Biology</em>, 8, 234.</li>
-<li><strong>Jian Zou</strong>, Jinbo Yu, Yuqing Zhu, Jiali Zhu, Jing Du, Xu Yang (2016). Application of Glutathione to Antagonize H2O2-induced Oxidative Stress in Rat Tracheal Epithelial Cells, <em>Frontiers in Biology</em>, 11(1), 59-63.</li>
 </ul>
 </div>
 <div id="conference-presentation" class="section level3">
@@ -456,6 +455,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

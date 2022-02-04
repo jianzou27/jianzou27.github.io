@@ -8,23 +8,31 @@ output:
 
 I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 
+
 ### On-Going Projects
 * Number of clusters selection for model based clustering and S4 method extension.
-* Resemblance analysis between cell lines and human tissues.
+* Congruence analysis between cell lines and human tissues.
 * Great Lakes Breast Cancer Consortium data analysis.
-* Fusion transcript analysis in ovarian cancer before and after chemotherapy. 
+
 
 ### Publications
-*  Neil Carleton, **Jian Zou**, Yusi Fang, Stephen E. Koscumb, Osama Shiraz Shah, Fangyuan Chen, Sushil Beriwal, Emilia J. Diego, Adam M. Brufsky, Steffi Oesterreich, Steven D. Shapiro, Robert Ferris, Leisha A. Emens, George Tseng, Oscar C. Marroquin, Adrian V. Lee, Priscilla F. McAuliffe (2021). Outcomes After Sentinel Lymph Node Biopsy and Radiotherapy in Older Women With Early-Stage, Estrogen Receptor–Positive Breast Cancer, *JAMA Network Open*, e216322–e216322.
-* Terrell E Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava (2021). The Utility of Next-Generation Sequencing in Advanced Breast and Gynecologic Cancers: Experience of a Large Tertiary Care Women's Hospital, *American Journal of Clinical Pathology*.
-* Li-Xuan Qin, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). Statistical Assessment of Depth Normalization for Small RNA Sequencing, *JCO Clin Cancer Inform.*, 4, 567-582.
-* Peng Liu, Silvia Liu, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng, Liza Konnikova (2020). Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data, *Frontiers in Cell and Developmental Biology*, 8, 234.
+*  Neil Carleton, **Jian Zou**, Yusi Fang, Stephen E. Koscumb, Osama Shiraz Shah, Fangyuan Chen, Sushil Beriwal, Emilia J. Diego, Adam M. Brufsky, Steffi Oesterreich, Steven D. Shapiro, Robert Ferris, Leisha A. Emens, George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). <br> [Outcomes After Sentinel Lymph Node Biopsy and Radiotherapy in Older Women With Early-Stage, Estrogen Receptor–Positive Breast Cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open*.
+* Terrell E Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava\* (2021). <br> [The Utility of Next-Generation Sequencing in Advanced Breast and Gynecologic Cancers: Experience of a Large Tertiary Care Women's Hospital](https://academic.oup.com/ajcp/article-abstract/156/3/455/6174439), *American Journal of Clinical Pathology*.
+* Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). <br> [Statistical Assessment of Depth Normalization for Small RNA Sequencing](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics*.
+* Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng, Liza Konnikova (2020).<br> [Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data](https://www.frontiersin.org/articles/10.3389/fcell.2020.00234/full), *Frontiers in Cell and Developmental Biology*.
 
-### Conference Presentation
-* Statistical Assessment of Depth Normalization Methods for MicroRNA Sequencing, ICSA, Dec 2019 (Hangzhou, China)
+
+### Academic Presentation
+* (Poster) Outcomes After Sentinel Lymph Node Biopsy and Radiation Therapy in Elderly Women with Estrogen Receptor-Positive, Early Stage Breast Cancer, *Pitt GSPH Dean’s Day*, April 2021.
+* (Poster, 3rd author) Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in great lakes breast cancer consortium, *San Antonio Breast Cancer Virtual Symposium*, Dec 2020.
+* (Poster, 3rd author) Abstract PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy in women over 70 years old with ER+, HER2-, clinically node negative breast cancer, *San Antonio Breast Cancer Virtual Symposium*, Dec 2020.
+* (Talk) Statistical Assessment of Depth Normalization Methods for MicroRNA Sequencing, *ICSA (Hangzhou)*, Dec 2019.
+
 
 ### Teaching
+* *Teaching Fellow*, Mathematical Methods for Statistics, UPitts Biostatistics, Fall 2021
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018
+
 
 ### Selected Courses Taken
 * Likelihood Theory and Applications, Pitt Biostatistics, Spring 2020

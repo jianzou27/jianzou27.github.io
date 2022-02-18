@@ -8,8 +8,7 @@ output:
 
 ```{css, echo=FALSE}
 a:link {
-  color: grey;
-  text-decoration: none;
+  color: grey
 }
 ```
 

@@ -7,12 +7,10 @@ output:
 ---
 
 ```{css, echo=FALSE}
-a:link {
-  color: grey
-}
+a:link {text-decoration: none;}
 ```
 
-I am a PhD student in [<span style="color: #eb6864;">Bioinformatics and Statistical Learning Group</span>](https://tsenglab.biostat.pitt.edu) under the guidance of [<span style="color: #eb6864;">Dr. George C. Tseng</span>](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
+I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 
 ### On-Going Projects
 * Number of clusters selection for model based clustering and S4 method extension.
@@ -21,11 +19,11 @@ I am a PhD student in [<span style="color: #eb6864;">Bioinformatics and Statisti
 
 
 ### Publications
-* **Jian Zou**&dagger;, Yannick Düren&dagger;, and Li-Xuan Qin* (2022). [PRECISION.seq: An R Package for Benchmarking Depth Normalization in microRNA Sequencing](https://www.frontiersin.org/articles/10.3389/fgene.2021.823431/full), *Frontiers in Genetics* 12.
-* Neil Carleton, **Jian Zou**, Yusi Fang, ..., George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). [Outcomes After Sentinel Lymph Node Biopsy and Radiotherapy in Older Women With Early-Stage, Estrogen Receptor–Positive Breast Cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open* 4(4): e216322-e216322.
-* Terrell E. Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava\* (2021). [The Utility of Next-Generation Sequencing in Advanced Breast and Gynecologic Cancers: Experience of a Large Tertiary Care Women's Hospital](https://academic.oup.com/ajcp/article-abstract/156/3/455/6174439), *American Journal of Clinical Pathology* 156(3): 455-460.
-* Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). [Statistical Assessment of Depth Normalization for Small RNA Sequencing](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics* 4 (June): 567-582.
-* Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng\*, Liza Konnikova\* (2020). [Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data](https://www.frontiersin.org/articles/10.3389/fcell.2020.00234/full), *Frontiers in Cell and Developmental Biology* 8 (April): 234.
+* **Jian Zou**&dagger;, Yannick Düren&dagger;, and Li-Xuan Qin* (2022). [<span style="color: grey;">PRECISION.seq: An R Package for Benchmarking Depth Normalization in microRNA Sequencing</span>](https://www.frontiersin.org/articles/10.3389/fgene.2021.823431/full), *Frontiers in Genetics* 12.
+* Neil Carleton, **Jian Zou**, Yusi Fang, ..., George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). [<span style="color: grey;">Outcomes After Sentinel Lymph Node Biopsy and Radiotherapy in Older Women With Early-Stage, Estrogen Receptor–Positive Breast Cancer</span>](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open* 4(4): e216322-e216322.
+* Terrell E. Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava\* (2021). [<span style="color: grey;">The Utility of Next-Generation Sequencing in Advanced Breast and Gynecologic Cancers: Experience of a Large Tertiary Care Women's Hospital</span>](https://academic.oup.com/ajcp/article-abstract/156/3/455/6174439), *American Journal of Clinical Pathology* 156(3): 455-460.
+* Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). [<span style="color: grey;">Statistical Assessment of Depth Normalization for Small RNA Sequencing</span>](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics* 4 (June): 567-582.
+* Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng\*, Liza Konnikova\* (2020). [<span style="color: grey;">Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data</span>](https://www.frontiersin.org/articles/10.3389/fcell.2020.00234/full), *Frontiers in Cell and Developmental Biology* 8 (April): 234.
 
 
 ### Academic Presentation

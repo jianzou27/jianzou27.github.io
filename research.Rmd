@@ -28,8 +28,8 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 
 ### Academic Presentation
 * (Poster) Outcomes After Sentinel Lymph Node Biopsy and Radiation Therapy in Elderly Women with Estrogen Receptor-Positive, Early Stage Breast Cancer, *Pitt GSPH Dean's Day*, April 2021.
-* (Poster, 3rd author) Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in great lakes breast cancer consortium, *San Antonio Breast Cancer Virtual Symposium*, Dec 2020.
-* (Poster, 3rd author) Abstract PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy in women over 70 years old with ER+, HER2-, clinically node negative breast cancer, *San Antonio Breast Cancer Virtual Symposium*, Dec 2020.
+* (Poster, 3rd author) Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in great lakes breast cancer consortium, *SABC*, Dec 2020.
+* (Poster, 3rd author) Abstract PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy in women over 70 years old with ER+, HER2-, clinically node negative breast cancer, *SABC*, Dec 2020.
 * (Talk) Statistical Assessment of Depth Normalization Methods for MicroRNA Sequencing, *ICSA (Hangzhou)*, Dec 2019.
 
 

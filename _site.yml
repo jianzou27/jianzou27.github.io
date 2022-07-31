@@ -5,12 +5,12 @@ navbar:
   right:
     - text: "Research"
       href: research.html
+    - text: "Publication"
+      href: publication.html
     - text: "Blog"
       href: http://jianzou.me/blog
     - icon: fa fa-linkedin fa-lg
       href: http://www.linkedin.com/in/jian-zou/
-    - icon: fa fa-graduation-cap fa-lg
-      href: https://scholar.google.com/citations?user=dni_KfcAAAAJ&hl=en&oi=ao
     - icon: fa fa-github fa-lg
       href: https://github.com/jianzou75
     - icon: fa-envelope fa-lg

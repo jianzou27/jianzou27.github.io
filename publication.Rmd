@@ -11,12 +11,13 @@ a {color: unset;}
 a:link {text-decoration: none;}
 ```
 
-**Note**: &dagger;co-first author; *corresponding/senior author; Also available at [Google Scholar](https://scholar.google.com/citations?user=dni_KfcAAAAJ&hl=en&oi=ao).
+**Note**: ^co-first author; *corresponding/senior author; Also available at [Google Scholar](https://scholar.google.com/citations?user=dni_KfcAAAAJ&hl=en&oi=ao).
 
 
 ## Major Work
 <center>2022</center>
-#. **Jian Zou**&dagger;, Yannick Düren&dagger;, and Li-Xuan Qin* (2022). [PRECISION.seq: An R Package for Benchmarking Depth Normalization in microRNA Sequencing](https://www.frontiersin.org/articles/10.3389/fgene.2021.823431/full), *Frontiers in Genetics* 12.
+#. Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, Tiffany Onger, Matthew D. Wright, Yujia Li, Kathryn Demanelis, Bhuvaneswari Ramaswamy, George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer, *Journal of the National Cancer Institute*, accepted.
+#. **Jian Zou^**, Yannick Düren^, and Li-Xuan Qin\* (2022). [PRECISION.seq: An R Package for Benchmarking Depth Normalization in microRNA Sequencing](https://www.frontiersin.org/articles/10.3389/fgene.2021.823431/full), *Frontiers in Genetics* 12.
 
 
 ## Collaborative Work
@@ -30,7 +31,8 @@ a:link {text-decoration: none;}
 
 
 ## In Preparation
-#. **Jian Zou**, Yujia Li, George C. Tseng*. Cluster size constrained clustering.
-#. **Jian Zou**, George C. Tseng*. Congruence analysis between cell lines and tumors.
-#. Steffi Oesterreich\*&dagger;, Azadeh Nasrazadani\*&dagger;, **Jian Zou**&dagger;, Neil Carleton, Tiffany Onger, Matthew D Wright, Yujia Li, Kathryn Demanelis, Bhuvaneswari Ramaswamy, George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\*. Comprehensive retrospective analysis of clinicopathological features and outcome comparing patients with invasive ductal and lobular breast cancer.
+#. **Jian Zou**, George C. Tseng\*. Mutual information for multi-study multi-class concordant biomarker detection
+#. **Jian Zou**, Yujia Li, George C. Tseng\*. Cluster size constrained clustering.
+#. **Jian Zou**, George C. Tseng\*. Genomics congruence framework to optimally select representative cancer models for specific tumor subtypes.
 #. Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, **Jian Zou**, Song Liu, Zhao Ren, Jingyi Jessica Li, Steffi Osterreich, Tianzhou Ma, George C. Tseng\*. CAMO: A molecular congruence analysis framework for evaluating model organisms.
+#. Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*, submitted to *Nature Cancer*. 

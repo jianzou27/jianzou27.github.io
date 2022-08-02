@@ -15,6 +15,7 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 
 ## Research Project
 ### Ongoing Project
+* Single cell RNASeq based cancer model selection
 * Cluster number and penalty parameter selection for (sparse) Gaussian mixture model
 * Multi-omics data analysis for patients with breast cancer before and after hormone therapy
 * Analysis of the microenviroment for patients with breast cancer and brain metastasis
@@ -24,7 +25,7 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 * Outcomes after sentinel lymph node biopsy and radiotherapy in older women with early-stage, estrogen receptor–positive breast cancer
 
 ### Methodology
-* Multi-class concordance analysis
+* Multi-study multi-class concordance analysis
 * Congruence analysis between cell lines and human tissues
 * Constrained Gaussian mixture model
 

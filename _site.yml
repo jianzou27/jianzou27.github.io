@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Research"
       href: research.html
-    - text: "Publication"
+    - text: "Publications"
       href: publication.html
     - text: "Blog"
       href: http://jianzou.me/blog

@@ -10,11 +10,12 @@ output:
 a:link {text-decoration: none;}
 ```
 
+
 I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 
 
-## Research Project
-### Ongoing Project
+## Research Projects
+### Ongoing Projects
 * Single cell RNASeq based cancer model selection
 * Cluster number and penalty parameter selection for (sparse) Gaussian mixture model
 * Multi-omics data analysis for patients with breast cancer before and after hormone therapy
@@ -30,17 +31,7 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 * Constrained Gaussian mixture model
 
 
-## Academic Presentation
-#. CGMM: an algorithm for constrained model-based clustering (poster) <br> *ICSA Applied Statistics Symposium, Florida*, June 2022; *Symposium on Data Science \& Statistics, Pittsburgh*, June 2022; *ASA Pittsburgh Spring Banquet, Pittsburgh*, April 2022 
-#. Congruence analysis to optimally select representative cell lines for breast cancer histological subtypes (poster) <br>  *NISS Graduate Student Research Conference*, May 2022
-#. Congruence analysis between cell lines and tumors (talk) <br> *Pitt Biostatistics Research Day*, March 2022
-#. Outcomes after sentinel lymph node biopsy and radiation therapy in elderly women with ER+, early stage breast cancer (poster) <br> *Pitt GSPH Dean's Day*, April 2021
-#. Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in great lakes breast cancer consortium (3rd author) (poster) <br>  *San Antonio Breast Cancer Symposium*, December 2020 
-#. Abstract PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy in women over 70 years old with ER+, HER2-, clinically node negative breast cancer (3rd author) (poster) <br>  *San Antonio Breast Cancer Symposium*, December 2020
-#. Statistical assessment of depth normalization methods for microRNA sequencing (talk) <br> *11th ICSA International Conference, Hangzhou*, December 2019
-
-
-## Award
+## Awards
 * Student & Early Career Travel Award, *2022 Symposium on Data Science & Statistics*, April 2022
 * The 2022 Mihaela Serban Award for Best Poster Presentation, *ASA Pittsburgh Chapter*, April 2022
 

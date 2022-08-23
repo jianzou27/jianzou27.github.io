@@ -1,0 +1,25 @@
+---
+title: "Academic Presentations"
+output:
+  html_document
+---
+
+```{css, echo=FALSE}
+a {color: unset;} 
+a:link {text-decoration: none;}
+```
+<br>
+
+(@) CGMM: an algorithm for constrained model-based clustering (poster) <br> *ICSA Applied Statistics Symposium, Florida*, June 2022; *Symposium on Data Science \& Statistics, Pittsburgh*, June 2022; *ASA Pittsburgh Spring Banquet, Pittsburgh*, April 2022 
+
+(@) Congruence analysis to optimally select representative cell lines for breast cancer histological subtypes (poster) <br>  *NISS Graduate Student Research Conference*, May 2022
+
+(@) Congruence analysis between cell lines and tumors (talk) <br> *Pitt Biostatistics Research Day*, March 2022
+
+(@) [Outcomes after sentinel lymph node biopsy and radiation therapy in elderly women with ER+, early stage breast cancer](downloads/presentations/2021_deans_day_slnb.pdf) (poster) <br> *Pitt GSPH Dean's Day*, April 2021
+
+(@) [Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in great lakes breast cancer consortium](https://aacrjournals.org/cancerres/article/81/4_Supplement/PS11-02/648201/Abstract-PS11-02-Comprehensive-comparative) (3rd author) (poster) <br>  *San Antonio Breast Cancer Symposium*, December 2020 
+
+(@) [Abstract PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy in women over 70 years old with ER+, HER2-, clinically node negative breast cancer](https://aacrjournals.org/cancerres/article/81/4_Supplement/PS1-10/648032/Abstract-PS1-10-Outcomes-after-sentinel-lymph-node) (3rd author) (poster) <br>  *San Antonio Breast Cancer Symposium*, December 2020
+
+(@) [Statistical assessment of depth normalization methods for microRNA sequencing](downloads/presentations/2019_ICSA_normalization.pdf) (talk) <br> *11th ICSA International Conference, Hangzhou*, December 2019

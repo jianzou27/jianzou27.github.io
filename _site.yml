@@ -7,6 +7,8 @@ navbar:
       href: research.html
     - text: "Publications"
       href: publication.html
+    - text: "Presentations"
+      href: presentation.html
     - text: "Blog"
       href: http://jianzou.me/blog
     - icon: fa fa-linkedin fa-lg

@@ -6,10 +6,6 @@ output:
     toc_float: true
 ---
 
-```{css, echo=FALSE}
-a:link {text-decoration: none;}
-```
-
 
 I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
 

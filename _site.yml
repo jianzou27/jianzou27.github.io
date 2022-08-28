@@ -2,21 +2,22 @@ name: "Jian Zou"
 output_dir: "."
 navbar:
   title: "Jian Zou"
-  right:
+  left:
     - text: "Research"
       href: research.html
     - text: "Publications"
       href: publication.html
     - text: "Presentations"
       href: presentation.html
-    - text: "Blog"
-      href: http://jianzou.me/blog
-    - icon: fa fa-linkedin fa-lg
-      href: http://www.linkedin.com/in/jian-zou/
+  right:
     - icon: fa fa-github fa-lg
       href: https://github.com/jianzou75
+    - icon: fa fa-linkedin fa-lg
+      href: http://www.linkedin.com/in/jian-zou/
     - icon: fa-envelope fa-lg
       href: mailto:<jiz179@pitt.edu>
+    - icon: fa fa-book fa-lg
+      href: http://jianzou.me/blog
 output:
   html_document:
       theme: journal

@@ -1,5 +1,5 @@
 ---
-title: "Academic Presentations"
+title: ""
 output:
   html_document
 ---
@@ -8,6 +8,7 @@ output:
 a {color: unset;} 
 a:link {text-decoration: none;}
 ```
+
 <br>
 
 (@) CGMM: an algorithm for constrained model-based clustering (poster) <br> *ICSA Applied Statistics Symposium, Florida*, June 2022; *Symposium on Data Science \& Statistics, Pittsburgh*, June 2022; *ASA Pittsburgh Spring Banquet, Pittsburgh*, April 2022 

@@ -1,10 +1,12 @@
 ---
-title: "Teaching"
+title: ""
 output:
   html_document:
     toc: true
     toc_float: true
 ---
+
+<br>
 
 ## Teaching
 * *Teaching Assistant*, Statistical Methods for Omics Data, Pitt Biostatistics, Fall 2022

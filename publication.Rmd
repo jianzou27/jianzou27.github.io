@@ -38,8 +38,8 @@ a:link {text-decoration: none;}
 
 #. **Jian Zou**, Yujia Li, George C. Tseng\*. Cluster size constrained clustering.
 
-#. **Jian Zou**, George C. Tseng\*. Genomics congruence framework to optimally select representative cancer models for specific tumor subtypes.
+#. **Jian Zou**, George C. Tseng\*. Transcriptomic congruence and selection of representative cancer models towards precision medicine.
 
-#. Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, **Jian Zou**, Song Liu, Zhao Ren, Jingyi Jessica Li, Steffi Osterreich, Tianzhou Ma, George C. Tseng\*. CAMO: A molecular congruence analysis framework for evaluating model organisms.
+#. Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, **Jian Zou**, Song Liu, Zhao Ren, Jingyi Jessica Li, Steffi Osterreich, Tianzhou Ma, George C. Tseng\*. [CAMO: A molecular congruence analysis framework for evaluating model organisms](https://www.biorxiv.org/content/10.1101/2021.11.21.469371v1), under review in *Proceedings of the National Academy of Sciences*.
 
-#. Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*. Immune landscape in estrogen receptor positive breast cancer reveals a divergent macrophage-driven microenvironment, submitted to *Nature Cancer*. 
+#. Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*. Immune landscape in estrogen receptor positive breast cancer reveals a divergent macrophage-driven microenvironment, under review in *Nature Cancer*. 

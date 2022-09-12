@@ -11,7 +11,7 @@
 
 
 
-<title>Academic Presentations</title>
+<title>Teaching</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -225,6 +228,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -232,6 +298,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -295,50 +371,47 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Academic Presentations</h1>
+<h1 class="title toc-ignore">Teaching</h1>
 
 </div>
 
 
-<style type="text/css">
-a {color: unset;} 
-a:link {text-decoration: none;}
-</style>
-<p><br></p>
-<ol class="example" style="list-style-type: decimal">
-<li><p>CGMM: an algorithm for constrained model-based clustering
-(poster) <br> <em>ICSA Applied Statistics Symposium, Florida</em>, June
-2022; <em>Symposium on Data Science &amp; Statistics, Pittsburgh</em>,
-June 2022; <em>ASA Pittsburgh Spring Banquet, Pittsburgh</em>, April
-2022</p></li>
-<li><p>Congruence analysis to optimally select representative cell lines
-for breast cancer histological subtypes (poster) <br> <em>NISS Graduate
-Student Research Conference</em>, May 2022</p></li>
-<li><p>Congruence analysis between cell lines and tumors (talk) <br>
-<em>Pitt Biostatistics Research Day</em>, March 2022</p></li>
-<li><p><a
-href="downloads/presentations/2021_deans_day_slnb.pdf">Outcomes after
-sentinel lymph node biopsy and radiation therapy in elderly women with
-ER+, early stage breast cancer</a> (poster) <br> <em>Pitt GSPH Dean’s
-Day</em>, April 2021</p></li>
-<li><p><a
-href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS11-02/648201/Abstract-PS11-02-Comprehensive-comparative">Abstract
-PS11-02: Comprehensive comparative analysis of invasive ductal and
-lobular breast cancer cases in great lakes breast cancer consortium</a>
-(3rd author) (poster) <br> <em>San Antonio Breast Cancer Symposium</em>,
-December 2020</p></li>
-<li><p><a
-href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS1-10/648032/Abstract-PS1-10-Outcomes-after-sentinel-lymph-node">Abstract
-PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy
-in women over 70 years old with ER+, HER2-, clinically node negative
-breast cancer</a> (3rd author) (poster) <br> <em>San Antonio Breast
-Cancer Symposium</em>, December 2020</p></li>
-<li><p><a
-href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical
-assessment of depth normalization methods for microRNA sequencing</a>
-(talk) <br> <em>11th ICSA International Conference, Hangzhou</em>,
-December 2019</p></li>
-</ol>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<ul>
+<li><em>Teaching Assistant</em>, Statistical Methods for Omics Data,
+Pitt Biostatistics, Fall 2022</li>
+<li><em>Teaching Fellow</em>, Mathematical Methods for Statistics, Pitt
+Biostatistics, Fall 2021</li>
+<li><em>Teaching Assistant</em>, Analysis of Categorical Data, Columbia
+Biostatistics, Summer 2018</li>
+</ul>
+</div>
+<div id="selected-courses-taken" class="section level2">
+<h2>Selected Courses Taken</h2>
+<ul>
+<li>Asymptotic Methods in Statistics, Pitt Statistics, Fall 2020</li>
+<li>Likelihood Theory and Applications, Pitt Biostatistics, Spring
+2020</li>
+<li>Linear Models, Pitt Biostatistics, Fall 2019</li>
+<li>Statistical Estimation Theory, Pitt Biostatistics, Fall 2019</li>
+<li>Topics of Statistical Learning and Data Mining, Columbia
+Biostatistics, Fall 2018</li>
+<li>Introduction to Modern Analysis, Columbia Math, Summer 2018<br />
+</li>
+<li>Topics in Advanced Statistical Computing, Columbia Biostatistics,
+Spring 2018<br />
+</li>
+<li>Statistical Genetic Modeling, Columbia Biostatistics, Spring
+2018</li>
+<li>Cell Biology, CCNU Life Science, Fall 2016</li>
+<li>Molecular Biology, CCNU Life Science, Fall 2016</li>
+<li>Genetics, CCNU Life Science, Spring 2015</li>
+<li>Biochemistry, CCNU Life Science, Spring 2015</li>
+<li>Organic Chemistry, CCNU Chemistry, Fall 2014</li>
+<li>Microbiology, CCNU Life Science, Fall 2014</li>
+</ul>
+</div>
 
 <br><br>
 <footer>
@@ -346,6 +419,8 @@ December 2019</p></li>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -378,6 +453,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

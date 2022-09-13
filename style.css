@@ -19,3 +19,6 @@ img {
 div {
   line-height: 1.5;
 }
+.title{
+    display: none;
+}

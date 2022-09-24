@@ -13,7 +13,7 @@ a:link {text-decoration: none;}
 
 <br>
 
-**Note**: ^co-first author; *corresponding/senior author; Also available at [Google Scholar](https://scholar.google.com/citations?user=dni_KfcAAAAJ&hl=en&oi=ao).
+^co-first author; *corresponding/senior author; Also available at [Google Scholar](https://scholar.google.com/citations?user=dni_KfcAAAAJ&hl=en&oi=ao).
 
 
 ## Major Work

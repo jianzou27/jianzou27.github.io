@@ -18,7 +18,7 @@ a:link {text-decoration: none;}
 
 ## Major Work
 <center>2022</center>
-(@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, Tiffany Onger, Matthew D. Wright, Yujia Li, Kathryn Demanelis, Bhuvaneswari Ramaswamy, George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*.
+(@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, ..., George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological Features and Outcomes Comparing Patients with Invasive Ductal and Lobular Breast Cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*.
 
 (@) **Jian Zou^**, Yannick Düren^, and Li-Xuan Qin\* (2022). [PRECISION.seq: An R Package for Benchmarking Depth Normalization in microRNA Sequencing](https://doi.org/10.3389/fgene.2021.823431), *Frontiers in Genetics* 12.
 

@@ -24,6 +24,11 @@ a:link {text-decoration: none;}
 
 
 ## Collaborative Work
+<center>2022</center>
+(@) Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, **Jian Zou**, Song Liu, Zhao Ren, Jingyi Jessica Li, Steffi Osterreich, Tianzhou Ma, George C. Tseng\*. [CAMO: A molecular congruence analysis framework for evaluating model organisms](https://www.biorxiv.org/content/10.1101/2021.11.21.469371v1), *PNAS*, accepted.
+
+(@) Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*. Immune landscape in invasive ductal and lobular breast cancer reveals a divergent macrophage-driven microenvironment, *Nature Cancer*, accepted. 
+
 <center>2021</center>
 (@) Neil Carleton, **Jian Zou**, Yusi Fang, ..., George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). [Outcomes after sentinel lymph node biopsy and radiotherapy in older women With early-stage, estrogen receptor–positive breast cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open* 4(4): e216322-e216322.
 
@@ -36,12 +41,8 @@ a:link {text-decoration: none;}
 
 
 ## In Preparation
+#. **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\*. Transcriptomic congruence and selection of representative cancer models towards precision medicine, ready to submit.
+
 #. **Jian Zou**, George C. Tseng\*. Mutual information for multi-study multi-class concordant biomarker detection.
 
 #. **Jian Zou**, Yujia Li, George C. Tseng\*. CGMM: A novel algorithm for constrained model-based clustering.
-
-#. **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\*. Transcriptomic congruence and selection of representative cancer models towards precision medicine, ready to submit.
-
-#. Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, **Jian Zou**, Song Liu, Zhao Ren, Jingyi Jessica Li, Steffi Osterreich, Tianzhou Ma, George C. Tseng\*. [CAMO: A molecular congruence analysis framework for evaluating model organisms](https://www.biorxiv.org/content/10.1101/2021.11.21.469371v1), under review in *PNAS*.
-
-#. Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*. Immune landscape in invasive ductal and lobular breast cancer reveals a divergent macrophage-driven microenvironment, under review in *Nature Cancer*. 

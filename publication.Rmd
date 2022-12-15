@@ -18,9 +18,9 @@ a:link {text-decoration: none;}
 
 ## Major Work
 <center>2022</center>
-(@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, ..., George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*.
+(@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, ..., George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*, 114(11), 1511-1522.
 
-(@) **Jian Zou^**, Yannick Düren^, and Li-Xuan Qin\* (2022). [PRECISION.seq: An R package for benchmarking depth normalization in microRNA sequencing](https://doi.org/10.3389/fgene.2021.823431), *Frontiers in Genetics* 12.
+(@) **Jian Zou^**, Yannick Düren^, and Li-Xuan Qin\* (2022). [PRECISION.seq: An R package for benchmarking depth normalization in microRNA sequencing](https://doi.org/10.3389/fgene.2021.823431), *Frontiers in Genetics*, 12.
 
 
 ## Collaborative Work
@@ -30,14 +30,14 @@ a:link {text-decoration: none;}
 (@) Sayali Onkar, Jian Cui, **Jian Zou**, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich\*, Dario A.A.Vignali\*. Immune landscape in invasive ductal and lobular breast cancer reveals a divergent macrophage-driven microenvironment, *Nature Cancer*, accepted. 
 
 <center>2021</center>
-(@) Neil Carleton, **Jian Zou**, Yusi Fang, ..., George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). [Outcomes after sentinel lymph node biopsy and radiotherapy in older women With early-stage, estrogen receptor–positive breast cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open* 4(4): e216322-e216322.
+(@) Neil Carleton, **Jian Zou**, Yusi Fang, ..., George C. Tseng, Oscar C. Marroquin, Adrian V. Lee\*, Priscilla F. McAuliffe\* (2021). [Outcomes after sentinel lymph node biopsy and radiotherapy in older women With early-stage, estrogen receptor–positive breast cancer](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563), *JAMA Network Open*, 4(4), e216322-e216322.
 
-(@) Terrell E. Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava\* (2021). [The utility of next-generation sequencing in advanced breast and gynecologic cancers: experience of a large tertiary care women's hospital](https://doi.org/10.1093/ajcp/aqaa256), *American Journal of Clinical Pathology* 156(3): 455-460.
+(@) Terrell E. Jones, **Jian Zou**, George C. Tseng, Somak Roy, Rohit Bhargava\* (2021). [The utility of next-generation sequencing in advanced breast and gynecologic cancers: experience of a large tertiary care women's hospital](https://doi.org/10.1093/ajcp/aqaa256), *American Journal of Clinical Pathology*, 156(3), 455-460.
 
 <center>2020</center>
-(@) Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). [Statistical assessment of depth normalization for small RNA sequencing](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics* 4 (June): 567-582.
+(@) Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). [Statistical assessment of depth normalization for small RNA sequencing](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics*, 4, 567-582.
 
-(@) Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng\*, Liza Konnikova\* (2020). [Recent advances in computer-assisted algorithms for cell subtype identification of cytometry data](https://doi.org/10.3389/fcell.2020.00234), *Frontiers in Cell and Developmental Biology* 8 (April): 234.
+(@) Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng\*, Liza Konnikova\* (2020). [Recent advances in computer-assisted algorithms for cell subtype identification of cytometry data](https://doi.org/10.3389/fcell.2020.00234), *Frontiers in Cell and Developmental Biology*, 8, 234.
 
 
 ## In Preparation

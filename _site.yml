@@ -14,10 +14,10 @@ navbar:
   right:
     - icon: fa fa-github fa-lg
       href: https://github.com/jianzou75
-    - icon: fa fa-book fa-lg
-      href: http://jianzou.me/blog
-    - icon: fa-envelope fa-lg
+    - icon: fa fa-envelope fa-lg
       href: mailto:<jiz179@pitt.edu>
+    - icon: fa fa-pen fa-lg
+      href: http://jianzou.me/blog
 output:
   html_document:
       theme: journal

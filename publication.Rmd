@@ -20,7 +20,7 @@ a:link {text-decoration: none;}
 <center>2022</center>
 (@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, ..., George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*, 114(11), 1511-1522.
 
-(@) **Jian Zou^**, Yannick Düren^, and Li-Xuan Qin\* (2022). [PRECISION.seq: An R package for benchmarking depth normalization in microRNA sequencing](https://doi.org/10.3389/fgene.2021.823431), *Frontiers in Genetics*, 12.
+(@) **Jian Zou^**, Yannick Düren^, Li-Xuan Qin\* (2022). [PRECISION.seq: An R package for benchmarking depth normalization in microRNA sequencing](https://doi.org/10.3389/fgene.2021.823431), *Frontiers in Genetics*, 12.
 
 
 ## Collaborative Work

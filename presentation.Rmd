@@ -11,14 +11,11 @@ a:link {text-decoration: none;}
 
 <br>
 
-(@) Transcriptomic congruence and selection of representative cancer models towards precision medicine (poster; talk) <br> *Cancer Biology Program Annual Retreat, UPMC Hillman Cancer Center*, October 2022; *ENAR Spring Meeting,
-Nashville*, March 2023
+(@) Transcriptomic congruence and selection of representative cancer models towards precision medicine (talk) <br> *ENAR Spring Meeting, Nashville*, March 2023
 
 (@) CGMM: An algorithm for constrained model-based clustering (poster) <br> *ICSA Applied Statistics Symposium, Florida*, June 2022; *Symposium on Data Science \& Statistics, Pittsburgh*, June 2022; *ASA Pittsburgh Spring Banquet, Pittsburgh*, April 2022 
 
 (@) Congruence analysis to optimally select representative cell lines for breast cancer histological subtypes (poster) <br>  *NISS Graduate Student Research Conference*, May 2022
-
-(@) Congruence analysis between cell lines and tumors (talk) <br> *Pitt Biostatistics Research Day*, March 2022
 
 (@) [Outcomes after sentinel lymph node biopsy and radiation therapy in elderly women with ER+, early stage breast cancer](downloads/presentations/2021_deans_day_slnb.pdf) (poster) <br> *Pitt GSPH Dean's Day*, April 2021
 

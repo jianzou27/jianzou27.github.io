@@ -2,13 +2,14 @@
 title: "Jian Zou"
 ---
 
-# Jian Zou
-### Student of Biostatistics
+# Jian Zou (邹 鉴)
+### Biomedical Data Science
 <br>
-I am completing a doctoral degree of Biostatistics at [School of Public Health](https://www.publichealth.pitt.edu/), University of Pittsburgh supervised by [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/). I am also a graduate student researcher under the guidance of [Dr. Steffi Oesterreich](https://www.pharmacology.us/Faculty/SteffiOesterreich) and [Dr. Adrian Lee](https://www.pharmacology.us/Faculty/AdrianLee) at UPMC Magee-Women's Research Institute. 
 
-I was awarded M.S. of Biostatistics at [Mailman School of Public Health](https://www.mailman.columbia.edu/), Columbia University and two B.S. degrees (Biotechnology and Applied Chemistry) at [School of Life Science](http://bio.ccnu.edu.cn/), Central China Normal University.  
 
+I am an incoming Associate Professor at the [Department of Statistics, School of Public Health](https://gwgl.cqmu.edu.cn/index.htm), Chongqing Medical University. My research centers around developing and applying statistical learning methods for clinical and high-dimensional omics data.
+
+I received my Ph.D. in Biostatistics from the [School of Public Health](https://www.publichealth.pitt.edu/), University of Pittsburgh in 2023. My doctoral study was supervised by [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) and co-advised by [Dr. Steffi Oesterreich](https://www.pharmacology.us/Faculty/SteffiOesterreich) and [Dr. Adrian Lee](https://www.pharmacology.us/Faculty/AdrianLee) at the UPMC Hillman Cancer Center. Prior to that, I completed an M.S. in Biostatistics at the [Mailman School of Public Health](https://www.mailman.columbia.edu/), Columbia University in 2019 and obtained dual B.S. degrees in Biotechnology and Applied Chemistry from the [School of Life Science](http://bio.ccnu.edu.cn/), Central China Normal University in 2017.
 
 <br>
 

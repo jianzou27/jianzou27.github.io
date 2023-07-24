@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,26 +298,37 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+a {color: unset;} 
+a:link {text-decoration: none;}
+</style>
 <p><br></p>
-<p>I am a PhD student in <a
-href="https://tsenglab.biostat.pitt.edu">Bioinformatics and Statistical
-Learning Group</a> under the guidance of <a
-href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a> at
-University of Pittsburgh, and interested in application of data science
-in genomics and development of statistical tools for biological
-study.</p>
+<p>In 1958, Francis Crick’s <a
+href="https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology">central
+dogma</a> laid the foundation for modern biomedical science by revealing
+the intricate connections between DNA, RNA, and proteins. This
+revelation has captivated researchers around the world ever since. As
+biotechnologies advance, scientists gain the ability to scrutinize the
+sequences, structures, and abundance of these critical molecules.
+Today’s <a
+href="https://en.wikipedia.org/wiki/Massive_parallel_sequencing">next-generation
+sequencing technologies</a> provide unprecedented opportunities to delve
+deeply into disease mechanisms, but they also introduce a host of
+statistical challenges.</p>
+<p>My research aims to overcome these statistical hurdles, particularly
+in the realm of oncology. Our mission is to develop accessible and
+interpretable machine learning tools that bridge the gap between
+<strong>statistical learning methods</strong> and <strong>pratical
+biomedical applications</strong>, ultimately democratizing
+<strong>precision medicine</strong> for all.</p>
 <div id="research-projects" class="section level2">
 <h2>Research Projects</h2>
 <div id="ongoing-projects" class="section level3">
 <h3>Ongoing Projects</h3>
 <ul>
 <li>Single cell RNASeq based cancer model selection</li>
-<li>Cluster number and penalty parameter selection for (sparse) Gaussian
-mixture model</li>
-<li>Multi-omics data analysis for patients with breast cancer before and
-after hormone therapy</li>
-<li>Analysis of the microenviroment for patients with breast cancer and
-brain metastasis</li>
+<li>Single cell tumor malignancy map construction</li>
+<li>Evaluation of normalization methods on miRNA sequencing data</li>
 </ul>
 </div>
 <div id="collaboration" class="section level3">
@@ -336,9 +351,16 @@ women with early-stage, estrogen receptor–positive breast cancer</li>
 <div id="awards" class="section level2">
 <h2>Awards</h2>
 <ul>
-<li>Student &amp; Early Career Travel Award, <em>2022 Symposium on Data
-Science &amp; Statistics</em>, April 2022</li>
-<li>The 2022 Mihaela Serban Award for Best Poster Presentation, <em>ASA
+<li>Dean’s Service Award, <em>UPitt Public Health</em>, April 2023</li>
+<li>BIOST Best Graduate Student Researcher Award, <em>UPitt
+Biostat</em>, April 2023</li>
+<li><a
+href="https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134">Student
+&amp; Early Career Travel Award</a>, <em>2022 Symposium on Data Science
+&amp; Statistics</em>, April 2022</li>
+<li><a
+href="https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster">The
+Mihaela Serban Award for Best Poster Presentation</a>, <em>ASA
 Pittsburgh Chapter</em>, April 2022</li>
 <li>Excellent Graduate, <em>CCNU</em>, June 2017</li>
 <li>Second Prize, <em>National Life Science Innovation Experiment

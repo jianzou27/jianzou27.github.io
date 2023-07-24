@@ -4,17 +4,23 @@ output:
   html_document
 ---
 
+```{css, echo=FALSE}
+a {color: unset;} 
+a:link {text-decoration: none;}
+```
+
 <br>
 
-I am a PhD student in [Bioinformatics and Statistical Learning Group](https://tsenglab.biostat.pitt.edu) under the guidance of [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) at University of Pittsburgh, and interested in application of data science in genomics and development of statistical tools for biological study.
+In 1958, Francis Crick's [central dogma](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology) laid the foundation for modern biomedical science by revealing the intricate connections between DNA, RNA, and proteins. This revelation has captivated researchers around the world ever since. As biotechnologies advance, scientists gain the ability to scrutinize the sequences, structures, and abundance of these critical molecules. Today's [next-generation sequencing technologies](https://en.wikipedia.org/wiki/Massive_parallel_sequencing) provide unprecedented opportunities to delve deeply into disease mechanisms, but they also introduce a host of statistical challenges.
+
+My research aims to overcome these statistical hurdles, particularly in the realm of oncology. Our mission is to develop accessible and interpretable machine learning tools that bridge the gap between **statistical learning methods** and **pratical biomedical applications**, ultimately democratizing **precision medicine** for all.
 
 
 ## Research Projects
 ### Ongoing Projects
 * Single cell RNASeq based cancer model selection
-* Cluster number and penalty parameter selection for (sparse) Gaussian mixture model
-* Multi-omics data analysis for patients with breast cancer before and after hormone therapy
-* Analysis of the microenviroment for patients with breast cancer and brain metastasis
+* Single cell tumor malignancy map construction
+* Evaluation of normalization methods on miRNA sequencing data
 
 ### Collaboration
 * Great Lakes Breast Cancer Consortium data analysis
@@ -25,9 +31,10 @@ I am a PhD student in [Bioinformatics and Statistical Learning Group](https://ts
 * Congruence analysis between cell lines and human tissues
 * Constrained Gaussian mixture model
 
-
 ## Awards
-* Student & Early Career Travel Award, *2022 Symposium on Data Science & Statistics*, April 2022
-* The 2022 Mihaela Serban Award for Best Poster Presentation, *ASA Pittsburgh Chapter*, April 2022
+* Dean's Service Award, *UPitt Public Health*, April 2023
+* BIOST Best Graduate Student Researcher Award, *UPitt Biostat*, April 2023
+* [Student & Early Career Travel Award](https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134), *2022 Symposium on Data Science & Statistics*, April 2022
+* [The Mihaela Serban Award for Best Poster Presentation](https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster), *ASA Pittsburgh Chapter*, April 2022
 * Excellent Graduate, *CCNU*, June 2017
 * Second Prize, *National Life Science Innovation Experiment Contest*, August 2016

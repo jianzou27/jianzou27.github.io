@@ -13,7 +13,7 @@
 
 <title>Jian Zou</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,24 +298,30 @@ $(document).ready(function () {
 </div>
 
 
-<div id="jian-zou" class="section level1">
-<h1>Jian Zou</h1>
-<div id="student-of-biostatistics" class="section level3">
-<h3>Student of Biostatistics</h3>
-<p><br> I am completing a doctoral degree of Biostatistics at <a
+<div id="jian-zou-邹-鉴" class="section level1">
+<h1>Jian Zou (邹 鉴)</h1>
+<div id="biomedical-data-science" class="section level3">
+<h3>Biomedical Data Science</h3>
+<p><br></p>
+<p>I am an incoming Associate Professor at the <a
+href="https://gwgl.cqmu.edu.cn/index.htm">Department of Statistics,
+School of Public Health</a>, Chongqing Medical University. My research
+centers around developing and applying statistical learning methods for
+clinical and high-dimensional omics data.</p>
+<p>I received my Ph.D. in Biostatistics from the <a
 href="https://www.publichealth.pitt.edu/">School of Public Health</a>,
-University of Pittsburgh supervised by <a
-href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a>. I am also a
-graduate student researcher under the guidance of <a
+University of Pittsburgh in 2023. My doctoral study was supervised by <a
+href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a> and
+co-advised by <a
 href="https://www.pharmacology.us/Faculty/SteffiOesterreich">Dr. Steffi
 Oesterreich</a> and <a
 href="https://www.pharmacology.us/Faculty/AdrianLee">Dr. Adrian Lee</a>
-at UPMC Magee-Women’s Research Institute.</p>
-<p>I was awarded M.S. of Biostatistics at <a
-href="https://www.mailman.columbia.edu/">Mailman School of Public
-Health</a>, Columbia University and two B.S. degrees (Biotechnology and
-Applied Chemistry) at <a href="http://bio.ccnu.edu.cn/">School of Life
-Science</a>, Central China Normal University.</p>
+at the UPMC Hillman Cancer Center. Prior to that, I completed an M.S. in
+Biostatistics at the <a href="https://www.mailman.columbia.edu/">Mailman
+School of Public Health</a>, Columbia University in 2019 and obtained
+dual B.S. degrees in Biotechnology and Applied Chemistry from the <a
+href="http://bio.ccnu.edu.cn/">School of Life Science</a>, Central China
+Normal University in 2017.</p>
 <p><br></p>
 <div id="curriculum-vitae" class="section level4">
 <h4>Curriculum Vitae</h4>

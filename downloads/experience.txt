@@ -1,5 +1,5 @@
 
-I am an incoming Associate Professor at the [Department of Statistics, School of Public Health](https://gwgl.cqmu.edu.cn/index.htm), Chongqing Medical University. My research centers around developing and applying statistical learning methods for clinical and high-dimensional omics data.
+
 
 Since February 2014, I had chance to work on environment-related molecular toxicology in Professor [Xu Yang](http://bio.ccnu.edu.cn/info/1053/2297.htm)'s lab. That was the begining of my interest in research of public health. During my undergraduate study, I gradually cultivated a passion in biostatistics, and applied for the corresponding master degree.  
 

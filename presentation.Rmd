@@ -11,6 +11,8 @@ a:link {text-decoration: none;}
 
 <br>
 
+(@) Systems approach for congruence and selection of cancer models towards precision medicine (talk) <br> *Joint Bioconductor Asia and Hong Kong Bioinformatics Symposium, Hong Kong*, October 2023
+
 (@) Transcriptomic congruence and selection of representative cancer models towards precision medicine (talk) <br> *ENAR Spring Meeting, Nashville*, March 2023
 
 (@) CGMM: An algorithm for constrained model-based clustering (poster) <br> *ICSA Applied Statistics Symposium, Florida*, June 2022; *Symposium on Data Science \& Statistics, Pittsburgh*, June 2022; *ASA Pittsburgh Spring Banquet, Pittsburgh*, April 2022 

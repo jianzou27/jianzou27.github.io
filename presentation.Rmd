@@ -11,7 +11,7 @@ a:link {text-decoration: none;}
 
 <br>
 
-(@) Systems approach for congruence and selection of cancer models towards precision medicine (talk) <br> *Joint Bioconductor Asia and Hong Kong Bioinformatics Symposium, Hong Kong*, October 2023
+(@) [Systems approach for congruence and selection of cancer models towards precision medicine](downloads/presentations/2023_hk_cascam.pdf) (talk) <br> *Joint Bioconductor Asia and Hong Kong Bioinformatics Symposium, Hong Kong*, October 2023
 
 (@) Transcriptomic congruence and selection of representative cancer models towards precision medicine (talk) <br> *ENAR Spring Meeting, Nashville*, March 2023
 

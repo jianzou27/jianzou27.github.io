@@ -17,6 +17,9 @@ a:link {text-decoration: none;}
 
 
 ## Major Work
+<center>2023</center>
+(@) **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\* (2023). Systems approach for congruence and selection of cancer models towards precision medicine, *PLOS Computational Biology*, accepted.
+
 <center>2022</center>
 (@) Steffi Oesterreich^, Azadeh Nasrazadani^, **Jian Zou^**, Neil Carleton, ..., George Tseng, Adrian V. Lee, Nicole Williams\*, Megan Kruse\* (2022). [Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer](https://doi.org/10.1093/jnci/djac157), *JNCI: Journal of the National Cancer Institute*, 114(11), 1511-1522.
 
@@ -41,8 +44,6 @@ a:link {text-decoration: none;}
 
 
 ## In Preparation
-#. **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\*. Transcriptomic congruence and selection of representative cancer models towards precision medicine, ready to submit.
-
 #. **Jian Zou**, George C. Tseng\*. Mutual information for multi-study multi-class concordant biomarker detection.
 
 #. **Jian Zou**, Yujia Li, George C. Tseng\*. CGMM: A novel algorithm for constrained model-based clustering.

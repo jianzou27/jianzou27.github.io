@@ -11,6 +11,8 @@ a:link {text-decoration: none;}
 
 <br>
 
+(@) [Abstract PO1-14-09: Age-related remodeling of the systemic and breast microenvironment promotes a tumor-permissive locale for ER+ breast cancer in older women](https://doi.org/10.1158/1538-7445.SABCS23-PO1-14-09) (2nd author) <br> *San Antonio Breast Cancer Symposium*, December 2024 
+
 (@) Mutual information for detecting multi-class biomarkers when integrating multiple omics studies (talk) <br> *7th International Conference on Econometrics and Statistics, Beijing*, July 2024
 
 (@) [Systems approach for congruence and selection of cancer models towards precision medicine](downloads/presentations/2023_hk_cascam.pdf) (talk) <br> *Joint Bioconductor Asia and Hong Kong Bioinformatics Symposium, Hong Kong*, October 2023; *ICSA China Conference, Wuhan*, June 2024

@@ -46,6 +46,6 @@ a:link {text-decoration: none;}
 
 
 ## In Preparation
-#. **Jian Zou**, George C. Tseng\*. Mutual information for multi-study multi-class concordant biomarker detection.
+#. **Jian Zou**, Zheqi Li, Neil Carleton, Steffi Oesterreich, Adrian V Lee, George C. Tseng\*. [Mutual information for detecting multi-class biomarkers when integrating multiple bulk or single-cell transcriptomic studies](https://www.biorxiv.org/content/10.1101/2024.06.11.598484v1).
 
 #. **Jian Zou**, Yujia Li, George C. Tseng\*. CGMM: A novel algorithm for constrained model-based clustering.

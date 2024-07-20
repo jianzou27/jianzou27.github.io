@@ -27,6 +27,9 @@ a:link {text-decoration: none;}
 
 
 ## Collaborative Work
+<center>2024</center>
+(@) Neil Carleton, Thomas R. Radomski, Danyang Li, **Jian Zou**, ..., Steffi Oesterreich, George Tseng, Adrian V. Lee, Priscilla F. McAuliffe\* (2024). [Electronic health record–based nudge intervention and axillary surgery in older women with breast cancer: a nonrandomized controlled trial](https://jamanetwork.com/journals/jamasurgery/fullarticle/2821213), *JAMA Surgery*, Published online July 17, 2024.
+
 <center>2023</center>
 (@) George Tseng\*, Tianzhou Ma, **Jian Zou** (2023). [Of mouse models and humans](https://www.americanscientist.org/article/of-mouse-models-and-humans), *American Scientist*, 111(4), 213-214. (An invited, non-peer-reviewed article)
 

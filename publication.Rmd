@@ -18,6 +18,8 @@ a:link {text-decoration: none;}
 
 ## Major Work
 <center>2024</center>
+(@) Qixuan Cao, Jie Fan, **Jian Zou\* **, Wei Wang\* (2024). [Multi-omics analysis identifies BCAT2 as a potential pan-cancer biomarker for tumor progression and immune microenvironment modulation](https://doi.org/10.1038/s41598-024-74441-1), *Scientific Reports*, 14, 23371.
+
 (@) **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\* (2024). [Systems approach for congruence and selection of cancer models towards precision medicine](https://doi.org/10.1371/journal.pcbi.1011754), *PLoS Computational Biology*, 20(1), e1011754. ([online tool](https://shiny.crc.pitt.edu/cascam_shiny/))
 
 <center>2022</center>

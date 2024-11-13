@@ -30,6 +30,8 @@ a:link {text-decoration: none;}
 
 ## Collaborative Work
 <center>2024</center>
+(@) Fangyuan Chen, Sayali Onkar, **Jian Zou**, Yujia Li, Haley Arbore, Sai Maley, George Tseng, Peter C Lucas, Tullia C Bruno, Dario AA Vignali, Julia Foldi, Marija Balic, Adrian V. Lee\*, Steffi Oesterreich\* (2024). [Immune infiltration correlates with transcriptomic subtypes in primary estrogen receptor positive invasive lobular breast cancer](https://doi.org/10.1038/s41698-024-00746-z), *npj Precision Oncology*, 8(1), 257.
+
 (@) Neil Carleton, Thomas R. Radomski, Danyang Li, **Jian Zou**, ..., Steffi Oesterreich, George Tseng, Adrian V. Lee, Priscilla F. McAuliffe\* (2024). [Electronic health record–based nudge intervention and axillary surgery in older women with breast cancer: a nonrandomized controlled trial](https://jamanetwork.com/journals/jamasurgery/fullarticle/2821213), *JAMA Surgery*, Published online July 17, 2024.
 
 <center>2023</center>

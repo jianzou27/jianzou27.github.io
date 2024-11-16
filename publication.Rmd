@@ -18,6 +18,8 @@ a:link {text-decoration: none;}
 
 ## Major Work
 <center>2024</center>
+(@) **Jian Zou**, Zheqi Li, Neil Carleton, Steffi Oesterreich, Adrian V Lee, George C. Tseng\*. [Mutual information for detecting multi-class biomarkers when integrating multiple bulk or single-cell transcriptomic studies](https://doi.org/10.1093/bioinformatics/btae696), *Bioinformatics*, accepted.
+
 (@) Qixuan Cao, Jie Fan, **Jian Zou\* **, Wei Wang\* (2024). [Multi-omics analysis identifies BCAT2 as a potential pan-cancer biomarker for tumor progression and immune microenvironment modulation](https://doi.org/10.1038/s41598-024-74441-1), *Scientific Reports*, 14, 23371.
 
 (@) **Jian Zou**, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich\*, Adrian V. Lee\*, George C. Tseng\* (2024). [Systems approach for congruence and selection of cancer models towards precision medicine](https://doi.org/10.1371/journal.pcbi.1011754), *PLoS Computational Biology*, 20(1), e1011754. ([online tool](https://shiny.crc.pitt.edu/cascam_shiny/))
@@ -50,9 +52,3 @@ a:link {text-decoration: none;}
 (@) Li-Xuan Qin\*, **Jian Zou**, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer (2020). [Statistical assessment of depth normalization for small RNA sequencing](https://ascopubs.org/doi/10.1200/CCI.19.00118), *JCO Clinical Cancer Informatics*, 4, 567-582.
 
 (@) Peng Liu&dagger;, Silvia Liu&dagger;, Yusi Fang, Xiangning Xue, **Jian Zou**, George C. Tseng\*, Liza Konnikova\* (2020). [Recent advances in computer-assisted algorithms for cell subtype identification of cytometry data](https://doi.org/10.3389/fcell.2020.00234), *Frontiers in Cell and Developmental Biology*, 8, 234.
-
-
-## In Preparation
-#. **Jian Zou**, Zheqi Li, Neil Carleton, Steffi Oesterreich, Adrian V Lee, George C. Tseng\*. [Mutual information for detecting multi-class biomarkers when integrating multiple bulk or single-cell transcriptomic studies](https://www.biorxiv.org/content/10.1101/2024.06.11.598484v1).
-
-#. **Jian Zou**, Yujia Li, George C. Tseng\*. CGMM: A novel algorithm for constrained model-based clustering.

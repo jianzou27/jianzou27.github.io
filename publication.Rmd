@@ -32,7 +32,7 @@ a:link {text-decoration: none;}
 
 ## Collaborative Work
 <center>2024</center>
-(@) Peng Liu^, Yuchen Pan^, Rick Chang^, Yusi Fang, Xiangning Xue, **Jian Zou**, Jessica M. Toothaker, Oluwabunmi Olaloye, Eduardo Gonzalez Santiago, Vanessa Mitsialis, Pietro Prescicce, Suhas Kallapur, Scott Snapper, Jia-Jun Liu, George C. Tseng\*, Liza Konnikova\*, Silvia Liu\*. (2024) Comprehensive evaluation and practical guideline of gating methods for high-dimensional cytometry data: manual gating, unsupervised clustering, and auto-gating, *Briefings in Bioinformatics*. Accepted.
+(@) Peng Liu^, Yuchen Pan^, Rick Chang^, Yusi Fang, Xiangning Xue, **Jian Zou**, Jessica M. Toothaker, Oluwabunmi Olaloye, Eduardo Gonzalez Santiago, Vanessa Mitsialis, Pietro Prescicce, Suhas Kallapur, Scott Snapper, Jia-Jun Liu, George C. Tseng\*, Liza Konnikova\*, Silvia Liu\*. (2024) [Comprehensive evaluation and practical guideline of gating methods for high-dimensional cytometry data: manual gating, unsupervised clustering, and auto-gating](https://doi.org/10.1093/bib/bbae633), *Briefings in Bioinformatics*, 26(1), bbae633.
 
 (@) Fangyuan Chen, Sayali Onkar, **Jian Zou**, Yujia Li, Haley Arbore, Sai Maley, George Tseng, Peter C Lucas, Tullia C Bruno, Dario AA Vignali, Julia Foldi, Marija Balic, Adrian V. Lee\*, Steffi Oesterreich\* (2024). [Immune infiltration correlates with transcriptomic subtypes in primary estrogen receptor positive invasive lobular breast cancer](https://doi.org/10.1038/s41698-024-00746-z), *npj Precision Oncology*, 8(1), 257.
 

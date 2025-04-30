@@ -9,9 +9,10 @@ output:
 <br>
 
 ## Teaching
+* *Teaching Fellow (Collaborative)*, Experimental Design, CQMU, Spring 2025
 * *Teaching Fellow (Collaborative)*, Dissertation Writing, CQMU, Fall 2024
 * *Teaching Fellow (Collaborative)*, Public Health, CQMU, Fall 2024
-* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Spring 2024
+* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Springs 2024-25
 * *Teaching Assistant*, Statistical Methods for Omics Data, Pitt Biostatistics, Fall 2022
 * *Teaching Fellow*, Mathematical Methods for Statistics, Pitt Biostatistics, Fall 2021
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018

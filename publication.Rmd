@@ -32,7 +32,7 @@ a:link {text-decoration: none;}
 
 ## Collaborative Work
 <center>2025</center>
-(@) Dong Hu, Xiaoshuang Lyu, Zheqi Li, ..., **Jian Zou**, George Tseng, Tullia Bruno, Adrian Lee, Steffi Oesterreich, Norman Wolmark, Carmen Allegra, Samuel Jacobs, Linda McAllister-Lucas, and Peter Lucas\* (2025). The truncated HER2 species, p95HER2, drives immune suppression in HER2+ breast cancer and thereby limits trastuzumab deruxtecan efficacy. Nature Cancer. Accepted.
+(@) Dong Hu\*, Xiaoshuang Lyu, Zheqi Li, ..., **Jian Zou**, George Tseng, Tullia Bruno, Adrian Lee, Steffi Oesterreich, Norman Wolmark, Carmen Allegra, Samuel Jacobs, Linda McAllister-Lucas\*, and Peter Lucas\* (2025). [p95HER2, a truncated form of the HER2 oncoprotein, drives an immunosuppressive program in HER2+ breast cancer that limits trastuzumab deruxtecan efficacy](https://doi.org/10.1038/s43018-025-00969-4), *Nature Cancer*, 1-12.
 
 (@) Peng Liu^, Yuchen Pan^, Rick Chang^, Yusi Fang, Xiangning Xue, **Jian Zou**, Jessica M. Toothaker, Oluwabunmi Olaloye, Eduardo Gonzalez Santiago, Vanessa Mitsialis, Pietro Prescicce, Suhas Kallapur, Scott Snapper, Jia-Jun Liu, George C. Tseng\*, Liza Konnikova\*, Silvia Liu\* (2025). [Comprehensive evaluation and practical guideline of gating methods for high-dimensional cytometry data: manual gating, unsupervised clustering, and auto-gating](https://doi.org/10.1093/bib/bbae633), *Briefings in Bioinformatics*, 26(1), bbae633.
 

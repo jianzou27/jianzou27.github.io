@@ -17,6 +17,9 @@ a:link {text-decoration: none;}
 
 
 ## Major Work
+<center>2025</center>
+(@) Yuan Zhang^, Wenlong Li^, **Jian Zou^**, Guohui Yang, Xiaoni Zhong\*, Biao Xie\* (2025). [Using machine learning to identify the dynamic evolution patterns of negative emotions in perinatal women: A longitudinal study in southwest China](https://doi.org/10.1002/mco2.70331), *MedComm*, 6(8), e70331. 
+
 <center>2024</center>
 (@) **Jian Zou**, Zheqi Li, Neil Carleton, Steffi Oesterreich, Adrian V Lee, George C. Tseng\* (2024). [Mutual information for detecting multi-class biomarkers when integrating multiple bulk or single-cell transcriptomic studies](https://doi.org/10.1093/bioinformatics/btae696), *Bioinformatics*, 40(12), btae696.
 

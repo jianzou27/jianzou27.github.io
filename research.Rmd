@@ -11,27 +11,43 @@ a:link {text-decoration: none;}
 
 <br>
 
-In 1958, Francis Crick's [central dogma](https://en.wikipedia.org/wiki/Central_dogma_of_molecular_biology) laid the foundation for modern biomedical science by revealing the intricate connections between DNA, RNA, and proteins. This revelation has captivated researchers around the world ever since. As biotechnologies advance, scientists gain the ability to scrutinize the sequences, structures, and abundance of these critical molecules. Today's [next-generation sequencing technologies](https://en.wikipedia.org/wiki/Massive_parallel_sequencing) provide unprecedented opportunities to delve deeply into disease mechanisms, but they also introduce a host of statistical challenges.
+I grew up in [Wuhan](https://en.wikipedia.org/wiki/Wuhan), split by the Yangtze River, and earned my PhD in [Pittsburgh](https://en.wikipedia.org/wiki/Pittsburgh), where the Allegheny and Monongahela meet to form the Ohio. In both cities, bridges shape daily life. They do more than link two banks; they keep people, goods, and information moving.
 
-My research aims to overcome these statistical hurdles, particularly in the realm of oncology. Our mission is to develop accessible and interpretable machine learning tools that bridge the gap between **statistical learning methods** and **pratical biomedical applications**, ultimately democratizing **precision medicine** for all.
+I see my work in biostatistics in the same way. Modern biomedicine has two shores. On one side are statistics and artificial intelligence, where we develop models and algorithms. On the other side is clinical medicine, where clinicians must act for real patients under time, safety, and cost constraints. Our research builds the bridge between them. We turn complex data into tools that clinicians can understand, test, and use.
 
+At the center of this work is an idea I call **precision medicine for all**. Precision medicine should not serve only a narrow group of patients who are easy to study or well represented in trials. A bridge that carries only one kind of traffic has failed; in the same way, a model that works only in one ancestry group, one hospital, or one dataset does not meet our standard. We design methods that travel across populations, centers, and platforms and still perform in a predictable way.
 
-## Research Projects
-### Ongoing Projects
-* Single cell RNASeq based cancer model selection
-* Single cell tumor malignancy map construction
-* Evaluation of normalization methods on miRNA sequencing data
+Across projects, we keep a simple checklist: state assumptions clearly, handle batch effects and confounding, measure uncertainty, and test generalization. We release our work as reproducible software. In this way, the bridge from data to decision is visible and can be inspected and improved by others.
 
-### Collaboration
-* Great Lakes Breast Cancer Consortium data analysis
-* Outcomes after sentinel lymph node biopsy and radiotherapy in older women with early-stage, estrogen receptor–positive breast cancer
+<br>
 
-### Methodology
-* Multi-study multi-class concordance analysis
-* Congruence analysis between cell lines and human tissues
-* Constrained Gaussian mixture model
+## Research Interests
+### The "Cell-Line-Like-Me" Framework
+
+*[PLoS Comput Biol 2024](https://doi.org/10.1371/journal.pcbi.1011754); [Front Genet 2022](https://doi.org/10.3389/fgene.2021.823431)*
+
+Many cancer drugs fail because the preclinical models that support them do not reflect the tumors seen in patients. Cell lines, organoids, and animal models each capture only parts of human disease, and mismatches at this stage can propagate to late-stage trials. We frame this translational gap as a problem of statistical congruence between models and human tumors across species, platforms, and studies.
+
+We develop three parallel lines of work to address this. Direct harmonization quantifies global molecular similarity and basic compatibility between models and tumors. Latent factor and mixture models recover shared biological programs—such as pathways or regulatory modules—and match models and patients at that level rather than gene by gene. Flexible representation learning, including deep learning, aligns feature spaces while absorbing technical and species differences. Together, these approaches define "cell-line-like-me" avatars that guide model selection, drug prioritization, and study design.
+
+### Machine Learning for Tumor Metastasis
+
+*[Bioinformatics 2024](https://doi.org/10.1093/bioinformatics/btae696)*
+
+Most cancer deaths are caused by metastasis rather than the primary tumor. Metastasis reflects a chain of events involving tumor cells, microenvironment, and host response, which no single dataset measures fully. Bulk and single-cell studies often give partial and sometimes conflicting pictures. The central challenge is to extract stable metastatic programs that hold across cohorts and platforms.
+
+We organize this work into three directions. First, we build multimodal risk prediction models that combine bulk and single-cell transcriptomics, metabolomics, and clinical data to stratify metastatic risk in a way that can move across cohorts and centers. Second, we study intra-tumor heterogeneity and the tumor microenvironment, including metabolite-constrained modules and cell–cell interactions that may drive metastatic escape and colonization. Third, we develop quantitative models of the metastatic cascade, linking risk scores and molecular modules to stage-to-stage transitions and potential intervention points. Together, these efforts aim to turn fragmented data into coherent, clinically useful descriptions of metastasis.
+
+### Statistical Modeling of Metabolic Syndromes
+
+Metabolic syndromes are major contributors to cardiovascular disease, but in practice they are often handled as a simple yes/no label. We instead view metabolic health as the state of a connected biological system that changes over time, shaped by interacting organs, pathways, and environments.
+
+Our work follows three directions. First, we use large cohorts and routine clinical indices to evaluate how different definitions and combinations of metabolic abnormalities predict long-term outcomes. Second, we integrate multi-omics data with network analysis to identify molecular subtypes and modules that underlie distinct clinical patterns and risks. Third, we build dynamic models of metabolic trajectories, describing how people move between states and exploring when and how interventions might reverse or stabilize these paths. Together, these directions aim to move from static labeling to time- and system-aware management of metabolic health.
+
+<br>
 
 ## Awards
+* Outstanding Reviewer Award, *MedComm-Future Medicine*, December 2025
 * Dean's Service Award, *UPitt Public Health*, April 2023
 * BIOST Best Graduate Student Researcher Award, *UPitt Biostat*, April 2023
 * [Student & Early Career Travel Award](https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134), *2022 Symposium on Data Science & Statistics*, April 2022

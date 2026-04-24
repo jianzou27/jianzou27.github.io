@@ -461,9 +461,26 @@ a:hover { color: var(--kaki); }
 }
 
 /* =========================================================
-   Site footer + horizon — removed
+   Footer — one line, cat mark centered. Shown on every page
+   except the index (the index has .hero in .site-main).
    ========================================================= */
-.site-horizon, .site-foot { display: none; }
+.site-horizon { display: none; }
+.site-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--s-6) 0 var(--s-5);
+}
+.site-foot img {
+  width: 38px;
+  height: auto;
+  opacity: 1;
+  display: block;
+}
+.site-foot .colophon, .site-foot .meta { display: none; }
+
+/* Hide the footer specifically on pages that contain a .hero block (index). */
+body:has(.site-main .hero) .site-foot { display: none; }
 
 /* =========================================================
    Tocify (teaching sidebar) — hidden; content column fills

@@ -112,7 +112,7 @@ output:
 <div class="section-label">Collaborative Work</div>
 <div class="pub-list">
 
-<div class="pub" data-year="2025" data-section="collab featured">
+<div class="pub" data-year="2025" data-section="collab">
 <span class="pub-num">[8]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2, a truncated form of the HER2 oncoprotein, drives an immunosuppressive program in HER2+ breast cancer that limits trastuzumab deruxtecan efficacy.</a></div>
@@ -163,7 +163,7 @@ output:
 <span class="pub-year">2023</span>
 </div>
 
-<div class="pub" data-year="2023" data-section="collab">
+<div class="pub" data-year="2023" data-section="collab featured">
 <span class="pub-num">[13]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43018-023-00527-w">Immune landscape in invasive ductal and lobular breast cancer reveals a divergent macrophage-driven microenvironment.</a></div>
@@ -204,7 +204,7 @@ output:
 <span class="pub-year">2021</span>
 </div>
 
-<div class="pub" data-year="2020" data-section="collab">
+<div class="pub" data-year="2020" data-section="collab featured">
 <span class="pub-num">[17]</span>
 <div>
 <div class="pub-title"><a href="https://ascopubs.org/doi/10.1200/CCI.19.00118">Statistical assessment of depth normalization for small RNA sequencing.</a></div>

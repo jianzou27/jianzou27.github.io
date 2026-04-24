@@ -13,10 +13,10 @@
 
 <title>Presentations</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,10 +30,23 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Google Fonts: Source Serif 4 + Inter + JetBrains Mono + Noto Serif SC + Noto Sans SC -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,300..700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@200;300;400;500;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Design-system tokens + site layer -->
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="site.css">
+
+<!-- Font Awesome 6 (icons used in the nav) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<meta name="description" content="Jian Zou — biomedical data scientist. Statistical learning methods for clinical and high-dimensional omics data. Chongqing Medical University.">
+<meta name="author" content="Jian Zou">
+
+<!-- Favicon: cat mark -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -42,25 +55,17 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="tokens.css" type="text/css" />
+<link rel="stylesheet" href="site.css" type="text/css" />
 
 
 
@@ -94,80 +99,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -232,55 +163,27 @@ $(document).ready(function () {
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jian Zou</a>
+<!-- Design-system masthead / navbar, injected before_body on every page -->
+<div class="site-shell">
+  <nav class="site-nav">
+    <a href="index.html" class="brand">
+      <img src="img/cat-logo-ink.png" alt="Jian Zou mark" />
+      <span class="name">Jian Zou</span>
+    </a>
+    <ul class="nav-main">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="publication.html">Publications</a></li>
+      <li><a href="presentation.html">Presentations</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="https://github.com/jianzou75" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:jiz179@pitt.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="http://jianzou.me/blog" aria-label="Blog" title="Blog"><i class="fa-solid fa-feather"></i></a>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li>
-  <a href="publication.html">Publications</a>
-</li>
-<li>
-  <a href="presentation.html">Presentations</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/jianzou75">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="mailto:&lt;jiz179@pitt.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="http://jianzou.me/blog">
-    <span class="fas fa-blog"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+  </nav>
+
+  <main class="site-main">
 
 <div id="header">
 
@@ -291,72 +194,228 @@ $(document).ready(function () {
 </div>
 
 
-<style type="text/css">
-a {color: unset;} 
-a:link {text-decoration: none;}
-</style>
-<p><br></p>
-<ol class="example" style="list-style-type: decimal">
-<li><p>Mega vs. Meta in omics data integration: applications and
-methodological innovations <br> <em>Biostatistics Conference,
-Chongqing</em>, July 2025</p></li>
-<li><p>Statistical assessment of data normalization for sample
-clustering using microRNA sequencing <br> <em>ICSA Applied Statistics
-Symposium, University of Connecticut</em>, June 2025</p></li>
-<li><p><a
-href="https://doi.org/10.1158/1538-7445.SABCS23-PO1-14-09">Abstract
+<!-- Talks and posters. Flat list, newest first. To add an entry, copy
+     a <div class="pub">…</div> block, update data-year, and edit
+     title / venue. Use &#42; (HTML entity) for any "corresponding
+     author" asterisk. -->
+<div class="pub-list">
+<div class="pub" data-year="2025">
+<span class="pub-num">[1]</span>
+<div>
+<div class="pub-title">
+Mega vs. Meta in omics data integration: applications and methodological
+innovations.
+</div>
+<div class="pub-venue">
+Biostatistics Conference, Chongqing
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2025</span></p>
+</div>
+<div class="pub" data-year="2025">
+<span class="pub-num">[2]</span>
+<div>
+<div class="pub-title">
+Statistical assessment of data normalization for sample clustering using
+microRNA sequencing.
+</div>
+<div class="pub-venue">
+ICSA Applied Statistics Symposium, University of Connecticut
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2025</span></p>
+</div>
+<div class="pub" data-year="2024">
+<span class="pub-num">[3]</span>
+<div>
+<div class="pub-title">
+<a href="downloads/presentations/2024_EcoSta.pdf">Mutual information for
+detecting multi-class biomarkers when integrating multiple omics
+studies.</a>
+</div>
+<div class="pub-venue">
+7th International Conference on Econometrics and Statistics, Beijing
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2024</span></p>
+</div>
+<div class="pub" data-year="2024">
+<span class="pub-num">[4]</span>
+<div>
+<div class="pub-title">
+<a href="downloads/presentations/2023_hk_cascam.pdf">Systems approach
+for congruence and selection of cancer models towards precision
+medicine.</a>
+</div>
+<div class="pub-venue">
+ICSA China Conference, Wuhan  ·  Joint Bioconductor Asia &amp; Hong Kong
+Bioinformatics Symposium
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2024</span></p>
+</div>
+<div class="pub" data-year="2023">
+<span class="pub-num">[5]</span>
+<div>
+<div class="pub-title">
+Transcriptomic congruence and selection of representative cancer models
+towards precision medicine.
+</div>
+<div class="pub-venue">
+ENAR Spring Meeting, Nashville
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2023</span></p>
+</div>
+<div class="pub" data-year="2022">
+<span class="pub-num">[6]</span>
+<div>
+<div class="pub-title">
+CGMM: An algorithm for constrained model-based clustering.
+</div>
+<div class="pub-venue">
+ICSA Applied Statistics Symposium, Florida  ·  Symposium on Data Science
+&amp; Statistics, Pittsburgh  ·  ASA Pittsburgh Spring Banquet
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2022</span></p>
+</div>
+<div class="pub" data-year="2022">
+<span class="pub-num">[7]</span>
+<div>
+<div class="pub-title">
+Congruence analysis to optimally select representative cell lines for
+breast cancer histological subtypes.
+</div>
+<div class="pub-venue">
+NISS Graduate Student Research Conference
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2022</span></p>
+</div>
+<div class="pub" data-year="2021">
+<span class="pub-num">[8]</span>
+<div>
+<div class="pub-title">
+<a href="downloads/presentations/2021_deans_day_slnb.pdf">Outcomes after
+sentinel lymph node biopsy and radiation therapy in elderly women with
+ER+, early stage breast cancer.</a>
+</div>
+<div class="pub-venue">
+Pitt GSPH Dean’s Day
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2021</span></p>
+</div>
+<div class="pub" data-year="2019">
+<span class="pub-num">[9]</span>
+<div>
+<div class="pub-title">
+<a href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical
+assessment of depth normalization methods for microRNA sequencing.</a>
+</div>
+<div class="pub-venue">
+11th ICSA International Conference, Hangzhou
+</div>
+<div class="pub-venue-extra">
+Talk
+</div>
+</div>
+<p><span class="pub-year">2019</span></p>
+</div>
+<div class="pub" data-year="2024">
+<span class="pub-num">[10]</span>
+<div>
+<div class="pub-title">
+<a href="https://doi.org/10.1158/1538-7445.SABCS23-PO1-14-09">Abstract
 PO1-14-09: Age-related remodeling of the systemic and breast
 microenvironment promotes a tumor-permissive locale for ER+ breast
-cancer in older women</a> (2nd author) (poster) <br> <em>San Antonio
-Breast Cancer Symposium</em>, December 2024</p></li>
-<li><p><a href="downloads/presentations/2024_EcoSta.pdf">Mutual
-information for detecting multi-class biomarkers when integrating
-multiple omics studies</a> (talk) <br> <em>7th International Conference
-on Econometrics and Statistics, Beijing</em>, July 2024</p></li>
-<li><p><a href="downloads/presentations/2023_hk_cascam.pdf">Systems
-approach for congruence and selection of cancer models towards precision
-medicine</a> (talk) <br> <em>Joint Bioconductor Asia and Hong Kong
-Bioinformatics Symposium, Hong Kong</em>, October 2023; <em>ICSA China
-Conference, Wuhan</em>, June 2024</p></li>
-<li><p>Transcriptomic congruence and selection of representative cancer
-models towards precision medicine (talk) <br> <em>ENAR Spring Meeting,
-Nashville</em>, March 2023</p></li>
-<li><p>CGMM: An algorithm for constrained model-based clustering
-(poster) <br> <em>ICSA Applied Statistics Symposium, Florida</em>, June
-2022; <em>Symposium on Data Science &amp; Statistics, Pittsburgh</em>,
-June 2022; <em>ASA Pittsburgh Spring Banquet, Pittsburgh</em>, April
-2022</p></li>
-<li><p>Congruence analysis to optimally select representative cell lines
-for breast cancer histological subtypes (poster) <br> <em>NISS Graduate
-Student Research Conference</em>, May 2022</p></li>
-<li><p><a
-href="downloads/presentations/2021_deans_day_slnb.pdf">Outcomes after
-sentinel lymph node biopsy and radiation therapy in elderly women with
-ER+, early stage breast cancer</a> (poster) <br> <em>Pitt GSPH Dean’s
-Day</em>, April 2021</p></li>
-<li><p><a
-href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS11-02/648201/Abstract-PS11-02-Comprehensive-comparative">Abstract
+cancer in older women.</a>
+</div>
+<div class="pub-authors">
+2nd author
+</div>
+<div class="pub-venue">
+San Antonio Breast Cancer Symposium
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2024</span></p>
+</div>
+<div class="pub" data-year="2020">
+<span class="pub-num">[11]</span>
+<div>
+<div class="pub-title">
+<a href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS11-02/648201/Abstract-PS11-02-Comprehensive-comparative">Abstract
 PS11-02: Comprehensive comparative analysis of invasive ductal and
-lobular breast cancer cases in great lakes breast cancer consortium</a>
-(3rd author) (poster) <br> <em>San Antonio Breast Cancer Symposium</em>,
-December 2020</p></li>
-<li><p><a
-href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS1-10/648032/Abstract-PS1-10-Outcomes-after-sentinel-lymph-node">Abstract
+lobular breast cancer cases in Great Lakes Breast Cancer Consortium.</a>
+</div>
+<div class="pub-authors">
+3rd author
+</div>
+<div class="pub-venue">
+San Antonio Breast Cancer Symposium
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2020</span></p>
+</div>
+<div class="pub" data-year="2020">
+<span class="pub-num">[12]</span>
+<div>
+<div class="pub-title">
+<a href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS1-10/648032/Abstract-PS1-10-Outcomes-after-sentinel-lymph-node">Abstract
 PS1-10: Outcomes after sentinel lymph node biopsy and radiation therapy
-in women over 70 years old with ER+, HER2-, clinically node negative
-breast cancer</a> (3rd author) (poster) <br> <em>San Antonio Breast
-Cancer Symposium</em>, December 2020</p></li>
-<li><p><a
-href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical
-assessment of depth normalization methods for microRNA sequencing</a>
-(talk) <br> <em>11th ICSA International Conference, Hangzhou</em>,
-December 2019</p></li>
-</ol>
+in women over 70 years old with ER+, HER2−, clinically node negative
+breast cancer.</a>
+</div>
+<div class="pub-authors">
+3rd author
+</div>
+<div class="pub-venue">
+San Antonio Breast Cancer Symposium
+</div>
+<div class="pub-venue-extra">
+Poster
+</div>
+</div>
+<p><span class="pub-year">2020</span></p>
+</div>
+</div>
+<!-- /.pub-list -->
 
-<br><br>
-<footer>
-    <p class="copyright text-muted" align="center">&copy; 2026 Jian Zou</p>
-</footer>
+  </main><!-- /.site-main -->
+</div><!-- /.site-shell -->
+
+<script src="filters.js" defer></script>
 
 
 
@@ -392,15 +451,6 @@ $(document).ready(function () {
 <!-- code folding -->
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 </body>
 </html>

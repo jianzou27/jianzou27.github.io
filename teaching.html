@@ -13,10 +13,10 @@
 
 <title>Teaching</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,14 +29,24 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Google Fonts: Source Serif 4 + Inter + JetBrains Mono + Noto Serif SC + Noto Sans SC -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,300..700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@200;300;400;500;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Design-system tokens + site layer -->
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="site.css">
+
+<!-- Font Awesome 6 (icons used in the nav) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<meta name="description" content="Jian Zou — biomedical data scientist. Statistical learning methods for clinical and high-dimensional omics data. Chongqing Medical University.">
+<meta name="author" content="Jian Zou">
+
+<!-- Favicon: cat mark -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -45,25 +55,17 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="tokens.css" type="text/css" />
+<link rel="stylesheet" href="site.css" type="text/css" />
 
 
 
@@ -97,80 +99,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -225,69 +153,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -297,66 +162,28 @@ div.tocify {
 <div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jian Zou</a>
+<!-- Design-system masthead / navbar, injected before_body on every page -->
+<div class="site-shell">
+  <nav class="site-nav">
+    <a href="index.html" class="brand">
+      <img src="img/cat-logo-ink.png" alt="Jian Zou mark" />
+      <span class="name">Jian Zou</span>
+    </a>
+    <ul class="nav-main">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="publication.html">Publications</a></li>
+      <li><a href="presentation.html">Presentations</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="https://github.com/jianzou75" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:jiz179@pitt.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="http://jianzou.me/blog" aria-label="Blog" title="Blog"><i class="fa-solid fa-feather"></i></a>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li>
-  <a href="publication.html">Publications</a>
-</li>
-<li>
-  <a href="presentation.html">Presentations</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/jianzou75">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="mailto:&lt;jiz179@pitt.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="http://jianzou.me/blog">
-    <span class="fas fa-blog"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+  </nav>
+
+  <main class="site-main">
 
 <div id="header">
 
@@ -367,7 +194,6 @@ div.tocify {
 </div>
 
 
-<p><br></p>
 <div id="teaching" class="section level2">
 <h2>Teaching</h2>
 <ul>
@@ -375,11 +201,11 @@ div.tocify {
 <li><em>Teaching Fellow (Collaborative)</em>, Experimental Design, CQMU,
 Spring 2025</li>
 <li><em>Teaching Fellow (Collaborative)</em>, Dissertation Writing,
-CQMU, Fall 2024-25</li>
+CQMU, Fall 2024–25</li>
 <li><em>Teaching Fellow (Collaborative)</em>, Public Health, CQMU, Fall
-2024-25</li>
+2024–25</li>
 <li><em>Teaching Fellow (Collaborative)</em>, Respiratory and Cancer
-Precision Medicine, CQMU, Springs 2024-25</li>
+Precision Medicine, CQMU, Springs 2024–25</li>
 <li><em>Teaching Assistant</em>, Statistical Methods for Omics Data,
 Pitt Biostatistics, Fall 2022</li>
 <li><em>Teaching Fellow</em>, Mathematical Methods for Statistics, Pitt
@@ -398,11 +224,9 @@ Biostatistics, Summer 2018</li>
 <li>Statistical Estimation Theory, Pitt Biostatistics, Fall 2019</li>
 <li>Topics of Statistical Learning and Data Mining, Columbia
 Biostatistics, Fall 2018</li>
-<li>Introduction to Modern Analysis, Columbia Math, Summer 2018<br />
-</li>
+<li>Introduction to Modern Analysis, Columbia Math, Summer 2018</li>
 <li>Topics in Advanced Statistical Computing, Columbia Biostatistics,
-Spring 2018<br />
-</li>
+Spring 2018</li>
 <li>Statistical Genetic Modeling, Columbia Biostatistics, Spring
 2018</li>
 <li>Cell Biology, CCNU Life Science, Fall 2016</li>
@@ -414,14 +238,12 @@ Spring 2018<br />
 </ul>
 </div>
 
-<br><br>
-<footer>
-    <p class="copyright text-muted" align="center">&copy; 2026 Jian Zou</p>
-</footer>
+  </main><!-- /.site-main -->
+</div><!-- /.site-shell -->
+
+<script src="filters.js" defer></script>
 
 
-</div>
-</div>
 
 </div>
 
@@ -454,45 +276,7 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
 
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 </body>
 </html>

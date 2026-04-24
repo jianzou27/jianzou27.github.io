@@ -2,31 +2,29 @@
 title: "Teaching"
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: false
 ---
 
-<br>
-
 ## Teaching
+
 * *Teaching Fellow*, Biostatistics, CQMU, Fall 2025
 * *Teaching Fellow (Collaborative)*, Experimental Design, CQMU, Spring 2025
-* *Teaching Fellow (Collaborative)*, Dissertation Writing, CQMU, Fall 2024-25
-* *Teaching Fellow (Collaborative)*, Public Health, CQMU, Fall 2024-25
-* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Springs 2024-25
+* *Teaching Fellow (Collaborative)*, Dissertation Writing, CQMU, Fall 2024–25
+* *Teaching Fellow (Collaborative)*, Public Health, CQMU, Fall 2024–25
+* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Springs 2024–25
 * *Teaching Assistant*, Statistical Methods for Omics Data, Pitt Biostatistics, Fall 2022
 * *Teaching Fellow*, Mathematical Methods for Statistics, Pitt Biostatistics, Fall 2021
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018
 
-
 ## Selected Courses Taken
+
 * Asymptotic Methods in Statistics, Pitt Statistics, Fall 2020
 * Likelihood Theory and Applications, Pitt Biostatistics, Spring 2020
 * Linear Models, Pitt Biostatistics, Fall 2019
 * Statistical Estimation Theory, Pitt Biostatistics, Fall 2019
 * Topics of Statistical Learning and Data Mining, Columbia Biostatistics, Fall 2018
-* Introduction to Modern Analysis, Columbia Math, Summer 2018  
-* Topics in Advanced Statistical Computing, Columbia Biostatistics, Spring 2018  
+* Introduction to Modern Analysis, Columbia Math, Summer 2018
+* Topics in Advanced Statistical Computing, Columbia Biostatistics, Spring 2018
 * Statistical Genetic Modeling, Columbia Biostatistics, Spring 2018
 * Cell Biology, CCNU Life Science, Fall 2016
 * Molecular Biology, CCNU Life Science, Fall 2016

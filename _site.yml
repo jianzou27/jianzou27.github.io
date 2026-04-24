@@ -1,26 +1,20 @@
 name: "Jian Zou"
 output_dir: "."
-navbar:
-  title: "Jian Zou"
-  left:
-    - text: "Research"
-      href: research.html
-    - text: "Teaching"
-      href: teaching.html
-    - text: "Publications"
-      href: publication.html
-    - text: "Presentations"
-      href: presentation.html
-  right:
-    - icon: fa fa-github fa-lg
-      href: https://github.com/jianzou75
-    - icon: fa fa-envelope fa-lg
-      href: mailto:<jiz179@pitt.edu>
-    - icon: fas fa-blog
-      href: http://jianzou.me/blog
+
+# Navigation is rendered by navbar.html (injected via before_body) so that the
+# design-system masthead wraps every page. `navbar:` is omitted here so rmarkdown
+# does not also emit a Bootstrap navbar.
+
 output:
   html_document:
-      theme: journal
-      include:
-        after_body: footer.html
-      css: style.css
+    theme: default
+    highlight: null
+    self_contained: false
+    mathjax: null
+    includes:
+      in_header: header.html
+      before_body: navbar.html
+      after_body: footer.html
+    css:
+      - tokens.css
+      - site.css

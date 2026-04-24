@@ -1,15 +1,23 @@
 ---
 title: "Jian Zou"
+output:
+  html_document:
+    toc: false
 ---
 
-# Jian Zou (邹 鉴)
-### Biomedical Data Science
-<br>
-I am an Associate Professor at the [Department of Statistics, School of Public Health](https://gwgl.cqmu.edu.cn/info/1215/6841.htm), Chongqing Medical University. My research centers around developing and applying statistical learning methods for clinical and high-dimensional omics data.
-
-I received my Ph.D. in Biostatistics from the [School of Public Health](https://www.publichealth.pitt.edu/), University of Pittsburgh in 2023. My doctoral study was supervised by [Dr. George C. Tseng](http://www.pitt.edu/~ctseng/) and co-advised by [Dr. Steffi Oesterreich](https://www.pharmacology.us/Faculty/SteffiOesterreich) and [Dr. Adrian Lee](https://www.pharmacology.us/Faculty/AdrianLee) at the UPMC Hillman Cancer Center. Prior to that, I completed an M.S. in Biostatistics at the [Mailman School of Public Health](https://www.mailman.columbia.edu/), Columbia University in 2019 and obtained dual B.S. degrees in Biotechnology and Applied Chemistry from the [School of Life Science](http://bio.ccnu.edu.cn/), Central China Normal University in 2017.
-
-<br>
-
-#### Curriculum Vitae
-My CV is available [here](downloads/CV_JianZou.pdf). ([Chinese version](downloads/CV_JianZou_cn.pdf))
+<section class="hero">
+<div class="hero-body">
+<div class="eyebrow">Biomedical Data Science</div>
+<h1 class="display">Statistical learning methods for <em>clinical</em> and high-dimensional <em>omics</em> data.</h1>
+<p class="lede">I am Jian Zou (邹鉴), an Associate Professor at the <a href="https://gwgl.cqmu.edu.cn/info/1215/6841.htm">Department of Statistics, School of Public Health</a>, Chongqing Medical University. </p>
+<p>Prior to CQMU, I completed my Ph.D. in Biostatistics at the <a href="https://www.publichealth.pitt.edu/">School of Public Health</a>, University of Pittsburgh in 2023, under the supervision of <a href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a>, and co-advised by <a href="https://www.pharmacology.us/Faculty/SteffiOesterreich">Dr. Steffi Oesterreich</a> and <a href="https://www.pharmacology.us/Faculty/AdrianLee">Dr. Adrian Lee</a> at the UPMC Hillman Cancer Center. I earned an M.S. in Biostatistics at the <a href="https://www.mailman.columbia.edu/">Mailman School of Public Health</a>, Columbia University in 2019, and dual B.S. degrees in Biotechnology and Applied Chemistry from the <a href="http://bio.ccnu.edu.cn/">School of Life Science</a>, Central China Normal University in 2017.</p>
+<p>My CV is available <a href="downloads/CV_JianZou.pdf">here</a> (<a href="downloads/CV_JianZou_cn.pdf">Chinese version</a>).</p>
+</div>
+<aside class="side">
+<div class="side-label">Recent</div>
+<div class="side-item"><b><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></b><i>TIO · 2026</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1093/bioinformatics/btae696">Mutual information for multi-class biomarker detection.</a></b><i>Bioinformatics · 2024</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1371/journal.pcbi.1011754">Systems approach to cancer-model selection (CASCAM).</a></b><i>PLoS Comput Biol · 2024</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2 drives an immunosuppressive program in HER2+ breast cancer.</a></b><i>Nature Cancer · 2025</i></div>
+</aside>
+</section>

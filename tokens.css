@@ -1,0 +1,321 @@
+/* =========================================================
+   Jian Zou — Design System · tokens
+   Warm neutrals · sumi ink · persimmon accent · Hara-ma
+   ========================================================= */
+
+:root {
+  /* Paper & ink --- the "ma" (間) scale, near-white to near-black ------ */
+  --paper:        #F7F4EE;   /* primary surface — warm paper */
+  --paper-2:      #F1ECE2;   /* recessed surface */
+  --paper-3:      #E8E1D2;   /* hairline card */
+  --rule:         #1C1A17;   /* rule ink (matches text) */
+  --rule-soft:    #C9C1B0;   /* hairline dividers */
+  --rule-faint:   #E2DCCC;   /* grid lines */
+
+  --ink:          #1C1A17;   /* primary text — warm sumi, not pure black */
+  --ink-2:        #3A352E;   /* secondary text */
+  --ink-3:        #6B6456;   /* tertiary text / captions */
+  --ink-4:        #9A9282;   /* quaternary / meta */
+
+  /* Accent — kaki 柿 (persimmon), distinctly cooler & more muted than coral */
+  --kaki:         #C25A3A;   /* primary accent */
+  --kaki-ink:     #8E3E26;   /* hover / pressed */
+  --kaki-wash:    #F2D9CE;   /* tinted surface */
+  --kaki-veil:    #FBEEE7;   /* faintest tint */
+
+  /* Secondary — seiji 青磁 (celadon), for data viz only */
+  --seiji:        #7A8A78;
+  --seiji-ink:    #4F5E4E;
+  --seiji-wash:   #DDE3D9;
+
+  /* Tertiary — kon 紺 (dark indigo), for links in running text */
+  --kon:          #2C4257;
+  --kon-wash:     #D6DBE2;
+
+  /* Data palette, ordered */
+  --data-1: var(--kaki);
+  --data-2: var(--seiji);
+  --data-3: var(--kon);
+  --data-4: #B8925A;   /* kincha 金茶 */
+  --data-5: #6B5B7A;   /* fuji 藤 */
+  --data-6: #3A352E;   /* ink */
+
+  /* Dark surface (for reversed lockup / covers) */
+  --dark:         #1C1A17;
+  --dark-2:       #2A2622;
+  --dark-ink:     #F7F4EE;
+  --dark-ink-2:   #C9C1B0;
+
+  /* Typography */
+  --ff-serif:     "Source Serif 4", "Source Serif Pro", "Noto Serif SC", Georgia, serif;
+  --ff-sans:      "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ff-mono:      "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --ff-cjk-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --ff-cjk-sans:  "Noto Sans SC", "Source Han Sans SC", "PingFang SC", sans-serif;
+
+  /* Type scale — optical for biomed paper feel */
+  --t-display:  clamp(48px, 6vw, 88px);
+  --t-h1:       clamp(36px, 4vw, 56px);
+  --t-h2:       28px;
+  --t-h3:       20px;
+  --t-body:     16px;
+  --t-small:    14px;
+  --t-caption:  12px;
+  --t-tag:      11px;
+
+  --lh-tight:  1.08;
+  --lh-snug:   1.25;
+  --lh-body:   1.55;
+  --lh-loose:  1.72;
+
+  --tr-tight:  -0.022em;
+  --tr-body:    0em;
+  --tr-label:   0.12em;
+  --tr-tag:     0.22em;
+
+  /* Space — ma 間, a calm geometric scale */
+  --s-0:  4px;
+  --s-1:  8px;
+  --s-2:  12px;
+  --s-3:  16px;
+  --s-4:  24px;
+  --s-5:  32px;
+  --s-6:  48px;
+  --s-7:  64px;
+  --s-8:  96px;
+  --s-9:  144px;
+  --s-10: 192px;
+
+  /* Rules — hairlines are core to the system */
+  --hair:    0.5px;
+  --hair-2:  1px;
+  --hair-3:  2px;
+
+  /* Radii — nearly sharp, because Hara */
+  --r-0:  0px;
+  --r-1:  2px;
+  --r-2:  4px;
+  --r-full: 999px;
+
+  /* Elevation — we barely use shadow; prefer rules + offset */
+  --shadow-1: 0 1px 0 0 var(--rule-soft);
+  --shadow-2: 0 12px 40px -24px rgba(28,26,23,0.28);
+
+  /* Motion */
+  --ease:   cubic-bezier(.2,.7,.2,1);
+  --dur-1:  180ms;
+  --dur-2:  320ms;
+  --dur-3:  560ms;
+}
+
+/* =========================================================
+   Base
+   ========================================================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--ff-serif);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern", "liga", "calt", "onum";
+}
+
+* { box-sizing: border-box; }
+
+::selection { background: var(--kaki-wash); color: var(--ink); }
+
+/* =========================================================
+   Typography classes
+   ========================================================= */
+.t-display {
+  font-family: var(--ff-serif);
+  font-size: var(--t-display);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tr-tight);
+  font-weight: 300;
+}
+.t-h1 {
+  font-family: var(--ff-serif);
+  font-size: var(--t-h1);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tr-tight);
+  font-weight: 400;
+}
+.t-h2 {
+  font-family: var(--ff-serif);
+  font-size: var(--t-h2);
+  line-height: var(--lh-snug);
+  font-weight: 400;
+}
+.t-h3 {
+  font-family: var(--ff-sans);
+  font-size: var(--t-h3);
+  line-height: var(--lh-snug);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+.t-body {
+  font-family: var(--ff-serif);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+}
+.t-body-sans {
+  font-family: var(--ff-sans);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+}
+.t-small {
+  font-family: var(--ff-sans);
+  font-size: var(--t-small);
+  line-height: var(--lh-body);
+  color: var(--ink-2);
+}
+.t-caption {
+  font-family: var(--ff-sans);
+  font-size: var(--t-caption);
+  line-height: var(--lh-snug);
+  color: var(--ink-3);
+}
+.t-label {
+  font-family: var(--ff-sans);
+  font-size: var(--t-caption);
+  line-height: 1;
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-weight: 500;
+}
+.t-tag {
+  font-family: var(--ff-sans);
+  font-size: var(--t-tag);
+  line-height: 1;
+  letter-spacing: var(--tr-tag);
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-weight: 500;
+}
+.t-mono {
+  font-family: var(--ff-mono);
+  font-size: 13px;
+  line-height: var(--lh-body);
+  font-feature-settings: "tnum", "zero";
+}
+.t-cjk-display {
+  font-family: var(--ff-cjk-serif);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* Links */
+a { color: var(--kon); text-decoration: none; border-bottom: 1px solid var(--rule-soft); padding-bottom: 1px; transition: border-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease); }
+a:hover { color: var(--kaki); border-color: var(--kaki); }
+
+/* =========================================================
+   Rules (hairlines — the horizon-line motif)
+   ========================================================= */
+.rule        { height: 1px; background: var(--ink); border: 0; }
+.rule--soft  { background: var(--rule-soft); }
+.rule--faint { background: var(--rule-faint); }
+.rule--hair  { height: 0.5px; background: var(--ink); }
+
+/* A horizon rule with a single dot — a quiet echo of the cat on the line */
+.horizon {
+  position: relative;
+  height: 1px;
+  background: var(--ink);
+}
+.horizon::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--kaki);
+  transform: translate(0, -50%);
+}
+
+/* Registration ticks at corners (Hara-style printer marks) */
+.reg-tick {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  color: var(--ink-3);
+}
+.reg-tick::before, .reg-tick::after {
+  content: "";
+  position: absolute;
+  background: currentColor;
+}
+.reg-tick::before { left: 0; top: 50%; width: 10px; height: 0.5px; }
+.reg-tick::after  { left: 50%; top: 0; width: 0.5px; height: 10px; }
+
+/* =========================================================
+   Layout
+   ========================================================= */
+.container-wide   { max-width: 1320px; margin: 0 auto; padding: 0 var(--s-6); }
+.container        { max-width: 1080px; margin: 0 auto; padding: 0 var(--s-6); }
+.container-narrow { max-width: 720px;  margin: 0 auto; padding: 0 var(--s-6); }
+
+/* =========================================================
+   Components — Buttons
+   ========================================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding: 10px 22px;
+  font-family: var(--ff-sans);
+  font-size: var(--t-small);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-radius: var(--r-1);
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  transition: all var(--dur-1) var(--ease);
+  text-decoration: none;
+}
+.btn:hover { background: var(--kaki-ink); border-color: var(--kaki-ink); color: var(--paper); }
+
+.btn--ghost   { background: transparent; color: var(--ink); }
+.btn--ghost:hover { background: var(--ink); color: var(--paper); }
+
+.btn--accent  { background: var(--kaki); border-color: var(--kaki); }
+.btn--accent:hover { background: var(--kaki-ink); border-color: var(--kaki-ink); }
+
+.btn--link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+}
+.btn--link:hover { color: var(--kaki); border-color: var(--kaki); background: transparent; }
+
+/* =========================================================
+   Components — Tags & labels
+   ========================================================= */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  font-family: var(--ff-sans);
+  font-size: var(--t-tag);
+  letter-spacing: var(--tr-tag);
+  text-transform: uppercase;
+  color: var(--ink-2);
+  background: transparent;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--r-full);
+  font-weight: 500;
+}
+.tag--accent { color: var(--kaki-ink); border-color: var(--kaki); background: var(--kaki-veil); }
+.tag--ink    { color: var(--paper); border-color: var(--ink); background: var(--ink); }

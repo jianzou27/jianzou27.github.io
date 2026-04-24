@@ -13,10 +13,10 @@
 
 <title>Jian Zou</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,10 +30,23 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Google Fonts: Source Serif 4 + Inter + JetBrains Mono + Noto Serif SC + Noto Sans SC -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,300..700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@200;300;400;500;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Design-system tokens + site layer -->
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="site.css">
+
+<!-- Font Awesome 6 (icons used in the nav) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<meta name="description" content="Jian Zou — biomedical data scientist. Statistical learning methods for clinical and high-dimensional omics data. Chongqing Medical University.">
+<meta name="author" content="Jian Zou">
+
+<!-- Favicon: cat mark -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -42,25 +55,17 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+
+<link rel="stylesheet" href="tokens.css" type="text/css" />
+<link rel="stylesheet" href="site.css" type="text/css" />
 
 
 
@@ -94,80 +99,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -232,55 +163,27 @@ $(document).ready(function () {
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jian Zou</a>
+<!-- Design-system masthead / navbar, injected before_body on every page -->
+<div class="site-shell">
+  <nav class="site-nav">
+    <a href="index.html" class="brand">
+      <img src="img/cat-logo-ink.png" alt="Jian Zou mark" />
+      <span class="name">Jian Zou</span>
+    </a>
+    <ul class="nav-main">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="publication.html">Publications</a></li>
+      <li><a href="presentation.html">Presentations</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="https://github.com/jianzou75" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:jiz179@pitt.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="http://jianzou.me/blog" aria-label="Blog" title="Blog"><i class="fa-solid fa-feather"></i></a>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li>
-  <a href="publication.html">Publications</a>
-</li>
-<li>
-  <a href="presentation.html">Presentations</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/jianzou75">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="mailto:&lt;jiz179@pitt.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="http://jianzou.me/blog">
-    <span class="fas fa-blog"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+  </nav>
+
+  <main class="site-main">
 
 <div id="header">
 
@@ -291,42 +194,72 @@ $(document).ready(function () {
 </div>
 
 
-<div id="jian-zou-邹-鉴" class="section level1">
-<h1>Jian Zou (邹 鉴)</h1>
-<div id="biomedical-data-science" class="section level3">
-<h3>Biomedical Data Science</h3>
-<p><br> I am an Associate Professor at the <a
-href="https://gwgl.cqmu.edu.cn/info/1215/6841.htm">Department of
+<section class="hero">
+<div class="hero-body">
+<div class="eyebrow">
+Biomedical Data Science
+</div>
+<h1 class="display">
+Statistical learning methods for <em>clinical</em> and high-dimensional
+<em>omics</em> data.
+</h1>
+<p class="lede">
+I am Jian Zou (邹鉴), an Associate Professor at the
+<a href="https://gwgl.cqmu.edu.cn/info/1215/6841.htm">Department of
 Statistics, School of Public Health</a>, Chongqing Medical University.
-My research centers around developing and applying statistical learning
-methods for clinical and high-dimensional omics data.</p>
-<p>I received my Ph.D. in Biostatistics from the <a
-href="https://www.publichealth.pitt.edu/">School of Public Health</a>,
-University of Pittsburgh in 2023. My doctoral study was supervised by <a
-href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a> and
-co-advised by <a
-href="https://www.pharmacology.us/Faculty/SteffiOesterreich">Dr. Steffi
-Oesterreich</a> and <a
-href="https://www.pharmacology.us/Faculty/AdrianLee">Dr. Adrian Lee</a>
-at the UPMC Hillman Cancer Center. Prior to that, I completed an M.S. in
+</p>
+<p>
+Prior to CQMU, I completed my Ph.D. in Biostatistics at the
+<a href="https://www.publichealth.pitt.edu/">School of Public
+Health</a>, University of Pittsburgh in 2023, under the supervision of
+<a href="http://www.pitt.edu/~ctseng/">Dr. George C. Tseng</a>, and
+co-advised by
+<a href="https://www.pharmacology.us/Faculty/SteffiOesterreich">Dr. Steffi
+Oesterreich</a> and
+<a href="https://www.pharmacology.us/Faculty/AdrianLee">Dr. Adrian
+Lee</a> at the UPMC Hillman Cancer Center. I earned an M.S. in
 Biostatistics at the <a href="https://www.mailman.columbia.edu/">Mailman
-School of Public Health</a>, Columbia University in 2019 and obtained
-dual B.S. degrees in Biotechnology and Applied Chemistry from the <a
-href="http://bio.ccnu.edu.cn/">School of Life Science</a>, Central China
-Normal University in 2017.</p>
-<p><br></p>
-<div id="curriculum-vitae" class="section level4">
-<h4>Curriculum Vitae</h4>
-<p>My CV is available <a href="downloads/CV_JianZou.pdf">here</a>. (<a
-href="downloads/CV_JianZou_cn.pdf">Chinese version</a>)</p>
+School of Public Health</a>, Columbia University in 2019, and dual B.S.
+degrees in Biotechnology and Applied Chemistry from the
+<a href="http://bio.ccnu.edu.cn/">School of Life Science</a>, Central
+China Normal University in 2017.
+</p>
+<p>
+My CV is available <a href="downloads/CV_JianZou.pdf">here</a>
+(<a href="downloads/CV_JianZou_cn.pdf">Chinese version</a>).
+</p>
 </div>
+<aside class="side">
+<div class="side-label">
+Recent
 </div>
+<div class="side-item">
+<b><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining
+the tumor digital twin through cross-domain manifold
+mapping.</a></b><i>TIO · 2026</i>
 </div>
+<div class="side-item">
+<b><a href="https://doi.org/10.1093/bioinformatics/btae696">Mutual
+information for multi-class biomarker
+detection.</a></b><i>Bioinformatics · 2024</i>
+</div>
+<div class="side-item">
+<b><a href="https://doi.org/10.1371/journal.pcbi.1011754">Systems
+approach to cancer-model selection (CASCAM).</a></b><i>PLoS Comput Biol
+· 2024</i>
+</div>
+<div class="side-item">
+<b><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2 drives
+an immunosuppressive program in HER2+ breast cancer.</a></b><i>Nature
+Cancer · 2025</i>
+</div>
+</aside>
+</section>
 
-<br><br>
-<footer>
-    <p class="copyright text-muted" align="center">&copy; 2026 Jian Zou</p>
-</footer>
+  </main><!-- /.site-main -->
+</div><!-- /.site-shell -->
+
+<script src="filters.js" defer></script>
 
 
 
@@ -362,15 +295,6 @@ $(document).ready(function () {
 <!-- code folding -->
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 </body>
 </html>

@@ -1,15 +1,9 @@
 ---
 title: "Research"
 output:
-  html_document
+  html_document:
+    toc: false
 ---
-
-```{css, echo=FALSE}
-a {color: unset;} 
-a:link {text-decoration: none;}
-```
-
-<br>
 
 I grew up in [Wuhan](https://en.wikipedia.org/wiki/Wuhan), split by the Yangtze River, and earned my PhD in [Pittsburgh](https://en.wikipedia.org/wiki/Pittsburgh), where the Allegheny and Monongahela meet to form the Ohio. In both cities, bridges shape daily life. They do more than link two banks; they keep people, goods, and information moving.
 
@@ -19,38 +13,43 @@ At the center of this work is an idea I call **precision medicine for all**. Pre
 
 Across projects, we keep a simple checklist: state assumptions clearly, handle batch effects and confounding, measure uncertainty, and test generalization. We release our work as reproducible software. In this way, the bridge from data to decision is visible and can be inspected and improved by others.
 
-<br>
-
 ## Research Interests
-### The "Cell-Line-Like-Me" Framework
 
-*[PLoS Comput Biol 2024](https://doi.org/10.1371/journal.pcbi.1011754); [Front Genet 2022](https://doi.org/10.3389/fgene.2021.823431)*
+<section class="area">
+<div class="area-meta"><div class="tag-col">Line 01 · Cell-Line-Like-Me</div></div>
+<div>
+<h3 class="area-title">A framework for statistical congruence between preclinical models and human tumors.</h3>
+<div class="area-refs">PLoS Comput Biol, 2024 · Front Genet, 2022</div>
+<p>Many cancer drugs fail because the preclinical models that support them do not reflect the tumors seen in patients. Cell lines, organoids, and animal models each capture only parts of human disease, and mismatches at this stage can propagate to late-stage trials. We frame this translational gap as a problem of <em>statistical congruence</em> between models and human tumors across species, platforms, and studies.</p>
+<p>We develop three parallel lines of work: <strong>direct harmonization</strong> quantifies global molecular similarity and basic compatibility; <strong>latent-factor and mixture models</strong> recover shared biological programs — pathways or regulatory modules — and match models and patients at that level rather than gene by gene; <strong>flexible representation learning</strong>, including deep learning, aligns feature spaces while absorbing technical and species differences. Together these define "cell-line-like-me" avatars that guide model selection, drug prioritization, and study design.</p>
+</div>
+</section>
 
-Many cancer drugs fail because the preclinical models that support them do not reflect the tumors seen in patients. Cell lines, organoids, and animal models each capture only parts of human disease, and mismatches at this stage can propagate to late-stage trials. We frame this translational gap as a problem of statistical congruence between models and human tumors across species, platforms, and studies.
+<section class="area">
+<div class="area-meta"><div class="tag-col">Line 02 · Tumor Metastasis</div></div>
+<div>
+<h3 class="area-title">Machine learning for tumor metastasis.</h3>
+<div class="area-refs">Bioinformatics, 2024</div>
+<p>Most cancer deaths are caused by metastasis rather than the primary tumor. Metastasis reflects a chain of events involving tumor cells, microenvironment, and host response, which no single dataset measures fully. Bulk and single-cell studies often give partial and sometimes conflicting pictures. The central challenge is to extract <em>stable metastatic programs</em> that hold across cohorts and platforms.</p>
+<p>We organize this work into three directions. First, <strong>multimodal risk prediction</strong> models that combine multi-omics and clinical data to stratify metastatic risk in a way that can move across cohorts and centers. Second, <strong>intra-tumor heterogeneity and the tumor microenvironment</strong>, including metabolite-constrained modules and cell–cell interactions that may drive metastatic escape and colonization. Third, <strong>quantitative models of the metastatic cascade</strong>, linking risk scores and molecular modules to stage-to-stage transitions and potential intervention points.</p>
+</div>
+</section>
 
-We develop three parallel lines of work to address this. Direct harmonization quantifies global molecular similarity and basic compatibility between models and tumors. Latent factor and mixture models recover shared biological programs—such as pathways or regulatory modules—and match models and patients at that level rather than gene by gene. Flexible representation learning, including deep learning, aligns feature spaces while absorbing technical and species differences. Together, these approaches define "cell-line-like-me" avatars that guide model selection, drug prioritization, and study design.
-
-### Machine Learning for Tumor Metastasis
-
-*[Bioinformatics 2024](https://doi.org/10.1093/bioinformatics/btae696)*
-
-Most cancer deaths are caused by metastasis rather than the primary tumor. Metastasis reflects a chain of events involving tumor cells, microenvironment, and host response, which no single dataset measures fully. Bulk and single-cell studies often give partial and sometimes conflicting pictures. The central challenge is to extract stable metastatic programs that hold across cohorts and platforms.
-
-We organize this work into three directions. First, we build multimodal risk prediction models that combine multi-omics and clinical data to stratify metastatic risk in a way that can move across cohorts and centers. Second, we study intra-tumor heterogeneity and the tumor microenvironment, including metabolite-constrained modules and cell–cell interactions that may drive metastatic escape and colonization. Third, we develop quantitative models of the metastatic cascade, linking risk scores and molecular modules to stage-to-stage transitions and potential intervention points. Together, these efforts aim to turn fragmented data into coherent, clinically useful descriptions of metastasis.
-
-### Statistical Modeling of Metabolic Syndromes
-
-Metabolic syndromes are major contributors to cardiovascular disease, but in practice they are often handled as a simple yes/no label. We instead view metabolic health as the state of a connected biological system that changes over time, shaped by interacting organs, pathways, and environments.
-
-Our work follows three directions. First, we use large cohorts and routine clinical indices to evaluate how different definitions and combinations of metabolic abnormalities predict long-term outcomes. Second, we integrate multi-omics data with network analysis to identify molecular subtypes and modules that underlie distinct clinical patterns and risks. Third, we build dynamic models of metabolic trajectories, describing how people move between states and exploring when and how interventions might reverse or stabilize these paths. Together, these directions aim to move from static labeling to time- and system-aware management of metabolic health.
-
-<br>
+<section class="area">
+<div class="area-meta"><div class="tag-col">Line 03 · Metabolic Syndromes</div></div>
+<div>
+<h3 class="area-title">Statistical modeling of metabolic syndromes.</h3>
+<p>Metabolic syndromes are major contributors to cardiovascular disease, but in practice they are often handled as a simple yes/no label. We instead view metabolic health as the state of a connected biological system that changes over time, shaped by interacting organs, pathways, and environments.</p>
+<p>Three directions follow. First, we use <strong>large cohorts and routine clinical indices</strong> to evaluate how different definitions and combinations of metabolic abnormalities predict long-term outcomes. Second, we integrate <strong>multi-omics data with network analysis</strong> to identify molecular subtypes and modules that underlie distinct clinical patterns and risks. Third, we build <strong>dynamic models of metabolic trajectories</strong>, describing how people move between states and when interventions might reverse or stabilize these paths.</p>
+</div>
+</section>
 
 ## Awards
-* Outstanding Reviewer Award, *MedComm-Future Medicine*, December 2025
-* Dean's Service Award, *UPitt Public Health*, April 2023
-* BIOST Best Graduate Student Researcher Award, *UPitt Biostat*, April 2023
-* [Student & Early Career Travel Award](https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134), *2022 Symposium on Data Science & Statistics*, April 2022
-* [The Mihaela Serban Award for Best Poster Presentation](https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster), *ASA Pittsburgh Chapter*, April 2022
-* Excellent Graduate, *CCNU*, June 2017
-* Second Prize, *National Life Science Innovation Experiment Contest*, August 2016
+
+* *2025.12* — Outstanding Reviewer Award, *MedComm-Future Medicine*
+* *2023.04* — Dean's Service Award, *UPitt Public Health*
+* *2023.04* — BIOST Best Graduate Student Researcher Award, *UPitt Biostat*
+* *2022.04* — [Student & Early Career Travel Award](https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134), *Symposium on Data Science & Statistics*
+* *2022.04* — [Mihaela Serban Award for Best Poster Presentation](https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster), *ASA Pittsburgh Chapter*
+* *2017.06* — Excellent Graduate, *CCNU*
+* *2016.08* — Second Prize, *National Life Science Innovation Experiment Contest*

@@ -8,10 +8,13 @@ output:
 ## Teaching
 
 * *Teaching Fellow*, Biostatistics, CQMU, Fall 2025
+* *Teaching Fellow*, Medical Statistics, CQMU, Fall 2025
+* *Teaching Fellow (International)*, Biostatistics, CQMU, Spring 2025
 * *Teaching Fellow (Collaborative)*, Experimental Design, CQMU, Spring 2025
 * *Teaching Fellow (Collaborative)*, Dissertation Writing, CQMU, Fall 2024–25
 * *Teaching Fellow (Collaborative)*, Public Health, CQMU, Fall 2024–25
-* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Springs 2024–25
+* *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Falls and Springs 2023–26
+* *Teaching Fellow (Collaborative)*, Medical Big-Data Analysis Software, CQMU, Spring 2024
 * *Teaching Assistant*, Statistical Methods for Omics Data, Pitt Biostatistics, Fall 2022
 * *Teaching Fellow*, Mathematical Methods for Statistics, Pitt Biostatistics, Fall 2021
 * *Teaching Assistant*, Analysis of Categorical Data, Columbia Biostatistics, Summer 2018

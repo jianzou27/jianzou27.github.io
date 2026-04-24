@@ -19,7 +19,7 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 <div class="area-meta"><div class="tag-col">Line 01 · Cell-Line-Like-Me</div></div>
 <div>
 <h3 class="area-title">A framework for statistical congruence between preclinical models and human tumors.</h3>
-<div class="area-refs">PLoS Comput Biol, 2024 · Front Genet, 2022</div>
+<div class="area-refs">[The Innovation Oncology, 2026](https://doi.org/10.59717/j.xinn-oncol.2026.100012); [PLoS Comput Biol, 2024](https://doi.org/10.1371/journal.pcbi.1011754); [Front Genet, 2022](https://doi.org/10.3389/fgene.2021.823431)</div>
 <p>Many cancer drugs fail because the preclinical models that support them do not reflect the tumors seen in patients. Cell lines, organoids, and animal models each capture only parts of human disease, and mismatches at this stage can propagate to late-stage trials. We frame this translational gap as a problem of <em>statistical congruence</em> between models and human tumors across species, platforms, and studies.</p>
 <p>We develop three parallel lines of work: <strong>direct harmonization</strong> quantifies global molecular similarity and basic compatibility; <strong>latent-factor and mixture models</strong> recover shared biological programs — pathways or regulatory modules — and match models and patients at that level rather than gene by gene; <strong>flexible representation learning</strong>, including deep learning, aligns feature spaces while absorbing technical and species differences. Together these define "cell-line-like-me" avatars that guide model selection, drug prioritization, and study design.</p>
 </div>
@@ -29,7 +29,7 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 <div class="area-meta"><div class="tag-col">Line 02 · Tumor Metastasis</div></div>
 <div>
 <h3 class="area-title">Machine learning for tumor metastasis.</h3>
-<div class="area-refs">Bioinformatics, 2024</div>
+<div class="area-refs">[Bioinformatics, 2024](https://doi.org/10.1093/bioinformatics/btae696)</div>
 <p>Most cancer deaths are caused by metastasis rather than the primary tumor. Metastasis reflects a chain of events involving tumor cells, microenvironment, and host response, which no single dataset measures fully. Bulk and single-cell studies often give partial and sometimes conflicting pictures. The central challenge is to extract <em>stable metastatic programs</em> that hold across cohorts and platforms.</p>
 <p>We organize this work into three directions. First, <strong>multimodal risk prediction</strong> models that combine multi-omics and clinical data to stratify metastatic risk in a way that can move across cohorts and centers. Second, <strong>intra-tumor heterogeneity and the tumor microenvironment</strong>, including metabolite-constrained modules and cell–cell interactions that may drive metastatic escape and colonization. Third, <strong>quantitative models of the metastatic cascade</strong>, linking risk scores and molecular modules to stage-to-stage transitions and potential intervention points.</p>
 </div>

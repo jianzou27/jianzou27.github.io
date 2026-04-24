@@ -17,7 +17,7 @@ output:
 <div>
 <div class="pub-title">Mega vs. Meta in omics data integration: applications and methodological innovations.</div>
 <div class="pub-venue">Biostatistics Conference, Chongqing</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Invited Talk</div>
 </div>
 <span class="pub-year">2025</span>
 </div>
@@ -27,7 +27,7 @@ output:
 <div>
 <div class="pub-title">Statistical assessment of data normalization for sample clustering using microRNA sequencing.</div>
 <div class="pub-venue">ICSA Applied Statistics Symposium, University of Connecticut</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Invited Talk</div>
 </div>
 <span class="pub-year">2025</span>
 </div>
@@ -37,7 +37,7 @@ output:
 <div>
 <div class="pub-title"><a href="downloads/presentations/2024_EcoSta.pdf">Mutual information for detecting multi-class biomarkers when integrating multiple omics studies.</a></div>
 <div class="pub-venue">7th International Conference on Econometrics and Statistics, Beijing</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Invited Talk</div>
 </div>
 <span class="pub-year">2024</span>
 </div>
@@ -47,7 +47,7 @@ output:
 <div>
 <div class="pub-title"><a href="downloads/presentations/2023_hk_cascam.pdf">Systems approach for congruence and selection of cancer models towards precision medicine.</a></div>
 <div class="pub-venue">ICSA China Conference, Wuhan &nbsp;·&nbsp; Joint Bioconductor Asia &amp; Hong Kong Bioinformatics Symposium</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Invited Talk</div>
 </div>
 <span class="pub-year">2024</span>
 </div>
@@ -57,7 +57,7 @@ output:
 <div>
 <div class="pub-title">Transcriptomic congruence and selection of representative cancer models towards precision medicine.</div>
 <div class="pub-venue">ENAR Spring Meeting, Nashville</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Contributed Talk</div>
 </div>
 <span class="pub-year">2023</span>
 </div>
@@ -97,7 +97,7 @@ output:
 <div>
 <div class="pub-title"><a href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical assessment of depth normalization methods for microRNA sequencing.</a></div>
 <div class="pub-venue">11th ICSA International Conference, Hangzhou</div>
-<div class="pub-venue-extra">Talk</div>
+<div class="pub-venue-extra">Invited Talk</div>
 </div>
 <span class="pub-year">2019</span>
 </div>

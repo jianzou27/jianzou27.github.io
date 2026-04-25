@@ -194,7 +194,7 @@ pre code {
 
 
 <p class="pub-intro">
-^ co-first author  ·  * corresponding / senior author. Also available at
+^ Co-first, * Corresponding/Senior, <u>Advisee</u>. Also available at
 <a href="https://scholar.google.com/citations?user=dni_KfcAAAAJ&amp;hl=en&amp;oi=ao">Google
 Scholar</a> and
 <a href="https://orcid.org/0009-0006-9624-6487">ORCID</a>.
@@ -209,6 +209,10 @@ Scholar</a> and
        data-section="collab featured"   → shows under "Collaborative" AND "Featured"
 
      Wrap an advisee's name in <u>…</u> to underline it in the author list.
+
+     Numbers like [1], [2] are generated automatically by CSS counters —
+     no need to renumber when adding, removing, or reordering papers.
+     Numbering continues across the Major and Collaborative lists.
 
      Use &#42; for the corresponding-author asterisk — a bare * gets
      interpreted by pandoc as emphasis. -->
@@ -234,7 +238,6 @@ Major Work
 </div>
 <div class="pub-list">
 <div class="pub" data-year="2026" data-section="major featured">
-<span class="pub-num">[1]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining
@@ -247,11 +250,13 @@ Zou*</b>
 <div class="pub-venue">
 The Innovation Oncology, 1, 100012
 </div>
+<div class="pub-venue-extra">
+Commentary
+</div>
 </div>
 <p><span class="pub-year">2026</span></p>
 </div>
 <div class="pub" data-year="2025" data-section="major">
-<span class="pub-num">[2]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1002/mco2.70331">Using machine learning to
@@ -269,7 +274,6 @@ MedComm, 6(8), e70331
 <p><span class="pub-year">2025</span></p>
 </div>
 <div class="pub" data-year="2024" data-section="major featured">
-<span class="pub-num">[3]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1093/bioinformatics/btae696">Mutual
@@ -287,7 +291,6 @@ Bioinformatics, 40(12), btae696
 <p><span class="pub-year">2024</span></p>
 </div>
 <div class="pub" data-year="2024" data-section="major">
-<span class="pub-num">[4]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1038/s41598-024-74441-1">Multi-omics
@@ -304,7 +307,6 @@ Scientific Reports, 14, 23371
 <p><span class="pub-year">2024</span></p>
 </div>
 <div class="pub" data-year="2024" data-section="major featured">
-<span class="pub-num">[5]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1371/journal.pcbi.1011754">Systems approach
@@ -325,7 +327,6 @@ PLoS Computational Biology, 20(1), e1011754
 <p><span class="pub-year">2024</span></p>
 </div>
 <div class="pub" data-year="2022" data-section="major">
-<span class="pub-num">[6]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1093/jnci/djac157">Clinicopathological
@@ -343,7 +344,6 @@ JNCI: Journal of the National Cancer Institute, 114(11), 1511–1522
 <p><span class="pub-year">2022</span></p>
 </div>
 <div class="pub" data-year="2022" data-section="major">
-<span class="pub-num">[7]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.3389/fgene.2021.823431">PRECISION.seq: An R
@@ -365,7 +365,6 @@ Collaborative Work
 </div>
 <div class="pub-list">
 <div class="pub" data-year="2025" data-section="collab">
-<span class="pub-num">[8]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2, a
@@ -385,7 +384,6 @@ Nature Cancer, 1–12
 <p><span class="pub-year">2025</span></p>
 </div>
 <div class="pub" data-year="2025" data-section="collab">
-<span class="pub-num">[9]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1093/bib/bbae633">Comprehensive evaluation
@@ -405,7 +403,6 @@ Briefings in Bioinformatics, 26(1), bbae633
 <p><span class="pub-year">2025</span></p>
 </div>
 <div class="pub" data-year="2024" data-section="collab">
-<span class="pub-num">[10]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1038/s41698-024-00746-z">Immune infiltration
@@ -424,7 +421,6 @@ npj Precision Oncology, 8(1), 257
 <p><span class="pub-year">2024</span></p>
 </div>
 <div class="pub" data-year="2024" data-section="collab">
-<span class="pub-num">[11]</span>
 <div>
 <div class="pub-title">
 <a href="https://jamanetwork.com/journals/jamasurgery/fullarticle/2821213">Electronic
@@ -442,7 +438,6 @@ JAMA Surgery, online July 17, 2024
 <p><span class="pub-year">2024</span></p>
 </div>
 <div class="pub" data-year="2023" data-section="collab">
-<span class="pub-num">[12]</span>
 <div>
 <div class="pub-title">
 <a href="https://www.americanscientist.org/article/of-mouse-models-and-humans">Of
@@ -461,7 +456,6 @@ Invited, non-peer-reviewed article
 <p><span class="pub-year">2023</span></p>
 </div>
 <div class="pub" data-year="2023" data-section="collab featured">
-<span class="pub-num">[13]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1038/s43018-023-00527-w">Immune landscape in
@@ -482,7 +476,6 @@ Nature Cancer, 1–19
 <p><span class="pub-year">2023</span></p>
 </div>
 <div class="pub" data-year="2023" data-section="collab">
-<span class="pub-num">[14]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1073/pnas.2202584120">Transcriptomic
@@ -505,7 +498,6 @@ Engineering and Biotechnology News</a>
 <p><span class="pub-year">2023</span></p>
 </div>
 <div class="pub" data-year="2021" data-section="collab">
-<span class="pub-num">[15]</span>
 <div>
 <div class="pub-title">
 <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563">Outcomes
@@ -523,7 +515,6 @@ JAMA Network Open, 4(4), e216322
 <p><span class="pub-year">2021</span></p>
 </div>
 <div class="pub" data-year="2021" data-section="collab">
-<span class="pub-num">[16]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.1093/ajcp/aqaa256">The utility of
@@ -541,7 +532,6 @@ American Journal of Clinical Pathology, 156(3), 455–460
 <p><span class="pub-year">2021</span></p>
 </div>
 <div class="pub" data-year="2020" data-section="collab featured">
-<span class="pub-num">[17]</span>
 <div>
 <div class="pub-title">
 <a href="https://ascopubs.org/doi/10.1200/CCI.19.00118">Statistical
@@ -558,7 +548,6 @@ JCO Clinical Cancer Informatics, 4, 567–582
 <p><span class="pub-year">2020</span></p>
 </div>
 <div class="pub" data-year="2020" data-section="collab">
-<span class="pub-num">[18]</span>
 <div>
 <div class="pub-title">
 <a href="https://doi.org/10.3389/fcell.2020.00234">Recent advances in

@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
-<p class="pub-intro">^ co-first author &nbsp;·&nbsp; &#42; corresponding / senior author. Also available at <a href="https://scholar.google.com/citations?user=dni_KfcAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> and <a href="https://orcid.org/0009-0006-9624-6487">ORCID</a>.</p>
+<p class="pub-intro">^ Co-first, &#42; Corresponding/Senior, <u>Advisee</u>. Also available at <a href="https://scholar.google.com/citations?user=dni_KfcAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> and <a href="https://orcid.org/0009-0006-9624-6487">ORCID</a>.</p>
 
 <!-- ============ FILTER TAGS ============================================
      Each paper below has a data-section attribute. filters.js tokenizes
@@ -17,6 +17,10 @@ output:
        data-section="collab featured"   → shows under "Collaborative" AND "Featured"
 
      Wrap an advisee's name in <u>…</u> to underline it in the author list.
+
+     Numbers like [1], [2] are generated automatically by CSS counters —
+     no need to renumber when adding, removing, or reordering papers.
+     Numbering continues across the Major and Collaborative lists.
 
      Use &#42; for the corresponding-author asterisk — a bare * gets
      interpreted by pandoc as emphasis. -->
@@ -36,17 +40,16 @@ output:
 <div class="pub-list">
 
 <div class="pub" data-year="2026" data-section="major featured">
-<span class="pub-num">[1]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></div>
 <div class="pub-authors"><u>Yuanning Hu</u>, Wei Zong, <u>Juncheng Wang</u>, Manqi Cai, <b>Jian Zou&#42;</b></div>
 <div class="pub-venue">The Innovation Oncology, 1, 100012</div>
+<div class="pub-venue-extra">Commentary</div>
 </div>
 <span class="pub-year">2026</span>
 </div>
 
 <div class="pub" data-year="2025" data-section="major">
-<span class="pub-num">[2]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1002/mco2.70331">Using machine learning to identify the dynamic evolution patterns of negative emotions in perinatal women: A longitudinal study in southwest China.</a></div>
 <div class="pub-authors">Yuan Zhang^, Wenlong Li^, <b>Jian Zou^</b>, Guohui Yang, Xiaoni Zhong&#42;, Biao Xie&#42;</div>
@@ -56,7 +59,6 @@ output:
 </div>
 
 <div class="pub" data-year="2024" data-section="major featured">
-<span class="pub-num">[3]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1093/bioinformatics/btae696">Mutual information for detecting multi-class biomarkers when integrating multiple bulk or single-cell transcriptomic studies.</a></div>
 <div class="pub-authors"><b>Jian Zou</b>, Zheqi Li, Neil Carleton, Steffi Oesterreich, Adrian V Lee, George C. Tseng&#42;</div>
@@ -66,7 +68,6 @@ output:
 </div>
 
 <div class="pub" data-year="2024" data-section="major">
-<span class="pub-num">[4]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s41598-024-74441-1">Multi-omics analysis identifies BCAT2 as a potential pan-cancer biomarker for tumor progression and immune microenvironment modulation.</a></div>
 <div class="pub-authors">Qixuan Cao, Jie Fan, <b>Jian Zou&#42;</b>, Wei Wang&#42;</div>
@@ -76,7 +77,6 @@ output:
 </div>
 
 <div class="pub" data-year="2024" data-section="major featured">
-<span class="pub-num">[5]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1371/journal.pcbi.1011754">Systems approach for congruence and selection of cancer models towards precision medicine.</a></div>
 <div class="pub-authors"><b>Jian Zou</b>, Osama Shah, Yu-Chiao Chiu, Tianzhou Ma, Jennifer M Atkinson, Steffi Oesterreich&#42;, Adrian V. Lee&#42;, George C. Tseng&#42;</div>
@@ -87,7 +87,6 @@ output:
 </div>
 
 <div class="pub" data-year="2022" data-section="major">
-<span class="pub-num">[6]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1093/jnci/djac157">Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer.</a></div>
 <div class="pub-authors">Steffi Oesterreich^, Azadeh Nasrazadani^, <b>Jian Zou^</b>, Neil Carleton, …, George Tseng, Adrian V. Lee, Nicole Williams&#42;, Megan Kruse&#42;</div>
@@ -97,7 +96,6 @@ output:
 </div>
 
 <div class="pub" data-year="2022" data-section="major">
-<span class="pub-num">[7]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.3389/fgene.2021.823431">PRECISION.seq: An R package for benchmarking depth normalization in microRNA sequencing.</a></div>
 <div class="pub-authors"><b>Jian Zou^</b>, Yannick Düren^, Li-Xuan Qin&#42;</div>
@@ -113,7 +111,6 @@ output:
 <div class="pub-list">
 
 <div class="pub" data-year="2025" data-section="collab">
-<span class="pub-num">[8]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2, a truncated form of the HER2 oncoprotein, drives an immunosuppressive program in HER2+ breast cancer that limits trastuzumab deruxtecan efficacy.</a></div>
 <div class="pub-authors">Dong Hu&#42;, Xiaoshuang Lyu, Zheqi Li, …, <b>Jian Zou</b>, George Tseng, Tullia Bruno, Adrian Lee, Steffi Oesterreich, Norman Wolmark, Carmen Allegra, Samuel Jacobs, Linda McAllister-Lucas&#42;, Peter Lucas&#42;</div>
@@ -123,7 +120,6 @@ output:
 </div>
 
 <div class="pub" data-year="2025" data-section="collab">
-<span class="pub-num">[9]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1093/bib/bbae633">Comprehensive evaluation and practical guideline of gating methods for high-dimensional cytometry data: manual gating, unsupervised clustering, and auto-gating.</a></div>
 <div class="pub-authors">Peng Liu^, Yuchen Pan^, Rick Chang^, Yusi Fang, Xiangning Xue, <b>Jian Zou</b>, Jessica M. Toothaker, Oluwabunmi Olaloye, Eduardo Gonzalez Santiago, Vanessa Mitsialis, Pietro Prescicce, Suhas Kallapur, Scott Snapper, Jia-Jun Liu, George C. Tseng&#42;, Liza Konnikova&#42;, Silvia Liu&#42;</div>
@@ -133,7 +129,6 @@ output:
 </div>
 
 <div class="pub" data-year="2024" data-section="collab">
-<span class="pub-num">[10]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s41698-024-00746-z">Immune infiltration correlates with transcriptomic subtypes in primary estrogen receptor positive invasive lobular breast cancer.</a></div>
 <div class="pub-authors">Fangyuan Chen, Sayali Onkar, <b>Jian Zou</b>, Yujia Li, Haley Arbore, Sai Maley, George Tseng, Peter C Lucas, Tullia C Bruno, Dario AA Vignali, Julia Foldi, Marija Balic, Adrian V. Lee&#42;, Steffi Oesterreich&#42;</div>
@@ -143,7 +138,6 @@ output:
 </div>
 
 <div class="pub" data-year="2024" data-section="collab">
-<span class="pub-num">[11]</span>
 <div>
 <div class="pub-title"><a href="https://jamanetwork.com/journals/jamasurgery/fullarticle/2821213">Electronic health record–based nudge intervention and axillary surgery in older women with breast cancer: a nonrandomized controlled trial.</a></div>
 <div class="pub-authors">Neil Carleton, Thomas R. Radomski, Danyang Li, <b>Jian Zou</b>, …, Steffi Oesterreich, George Tseng, Adrian V. Lee, Priscilla F. McAuliffe&#42;</div>
@@ -153,7 +147,6 @@ output:
 </div>
 
 <div class="pub" data-year="2023" data-section="collab">
-<span class="pub-num">[12]</span>
 <div>
 <div class="pub-title"><a href="https://www.americanscientist.org/article/of-mouse-models-and-humans">Of mouse models and humans.</a></div>
 <div class="pub-authors">George Tseng&#42;, Tianzhou Ma, <b>Jian Zou</b></div>
@@ -164,7 +157,6 @@ output:
 </div>
 
 <div class="pub" data-year="2023" data-section="collab featured">
-<span class="pub-num">[13]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43018-023-00527-w">Immune landscape in invasive ductal and lobular breast cancer reveals a divergent macrophage-driven microenvironment.</a></div>
 <div class="pub-authors">Sayali Onkar, Jian Cui, <b>Jian Zou</b>, Carly Cardello, Anthony R Cillo, Mostofa Rafid Uddin, April Sagan, Marion Joy, Hatice U Osmanbeyoglu, Katherine Pogue-Geile, Priscilla F. McAuliffe, Peter C. Lucas, George C. Tseng, Adrian V Lee, Tullia C Bruno, Steffi Oesterreich&#42;, Dario A.A. Vignali&#42;</div>
@@ -174,7 +166,6 @@ output:
 </div>
 
 <div class="pub" data-year="2023" data-section="collab">
-<span class="pub-num">[14]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1073/pnas.2202584120">Transcriptomic congruence analysis for evaluating model organisms.</a></div>
 <div class="pub-authors">Wei Zong, Tanbin Rahman, Li Zhu, Xiangrui Zeng, Yingjin Zhang, <b>Jian Zou</b>, Song Liu, Zhao Ren, Jingyi Jessica Li, Etienne Sibille, Adrian V. Lee, Steffi Oesterreich, Tianzhou Ma&#42;, George C. Tseng&#42;</div>
@@ -185,7 +176,6 @@ output:
 </div>
 
 <div class="pub" data-year="2021" data-section="collab">
-<span class="pub-num">[15]</span>
 <div>
 <div class="pub-title"><a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563">Outcomes after sentinel lymph node biopsy and radiotherapy in older women with early-stage, estrogen receptor–positive breast cancer.</a></div>
 <div class="pub-authors">Neil Carleton, <b>Jian Zou</b>, Yusi Fang, …, George C. Tseng, Oscar C. Marroquin, Adrian V. Lee&#42;, Priscilla F. McAuliffe&#42;</div>
@@ -195,7 +185,6 @@ output:
 </div>
 
 <div class="pub" data-year="2021" data-section="collab">
-<span class="pub-num">[16]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1093/ajcp/aqaa256">The utility of next-generation sequencing in advanced breast and gynecologic cancers: experience of a large tertiary care women's hospital.</a></div>
 <div class="pub-authors">Terrell E. Jones, <b>Jian Zou</b>, George C. Tseng, Somak Roy, Rohit Bhargava&#42;</div>
@@ -205,7 +194,6 @@ output:
 </div>
 
 <div class="pub" data-year="2020" data-section="collab featured">
-<span class="pub-num">[17]</span>
 <div>
 <div class="pub-title"><a href="https://ascopubs.org/doi/10.1200/CCI.19.00118">Statistical assessment of depth normalization for small RNA sequencing.</a></div>
 <div class="pub-authors">Li-Xuan Qin&#42;, <b>Jian Zou</b>, Jiejun Shi, Ann Lee, Aleksandra Mihailovic, Thalia A. Farazi, Thomas Tuschl, Samuel Singer</div>
@@ -215,7 +203,6 @@ output:
 </div>
 
 <div class="pub" data-year="2020" data-section="collab">
-<span class="pub-num">[18]</span>
 <div>
 <div class="pub-title"><a href="https://doi.org/10.3389/fcell.2020.00234">Recent advances in computer-assisted algorithms for cell subtype identification of cytometry data.</a></div>
 <div class="pub-authors">Peng Liu^, Silvia Liu^, Yusi Fang, Xiangning Xue, <b>Jian Zou</b>, George C. Tseng&#42;, Liza Konnikova&#42;</div>

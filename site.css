@@ -345,9 +345,16 @@ a:hover { color: var(--kaki); }
 }
 .section-label:first-of-type { margin-top: var(--s-3); }
 
+/* Auto-number every .pub on the page. Numbers continue across .pub-list
+   groups (Major / Collaborative) on the publications page; the presentation
+   page has a single list. Adding, reordering, or deleting entries never
+   requires hand-renumbering — just edit the .pub blocks.                   */
+.site-main { counter-reset: pub; }
+
 .pub-list { margin: 0 0 var(--s-5); }
 
 .pub {
+  counter-increment: pub;
   display: grid;
   grid-template-columns: 36px 1fr 54px;
   gap: var(--s-3);
@@ -355,12 +362,15 @@ a:hover { color: var(--kaki); }
   align-items: baseline;
 }
 .pub + .pub { border-top: 1px solid var(--rule-faint); }
-.pub .pub-num {
+.pub::before {
+  content: "[" counter(pub) "]";
   font-family: var(--ff-mono);
   font-size: 12px;
   color: var(--ink-4);
   letter-spacing: 0.02em;
 }
+/* Hide the legacy hand-written pub-num span if it's still in old markup */
+.pub .pub-num { display: none; }
 .pub .pub-title {
   font-family: var(--ff-serif);
   font-size: 16px;

@@ -44,7 +44,7 @@ output:
 <div class="pub-title"><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></div>
 <div class="pub-authors"><u>Yuanning Hu</u>, Wei Zong, <u>Juncheng Wang</u>, Manqi Cai, <b>Jian Zou&#42;</b></div>
 <div class="pub-venue">The Innovation Oncology, 1, 100012</div>
-<div class="pub-venue-extra">Commentary</div>
+<div class="pub-venue-extra">Commentary, [news](https://mp.weixin.qq.com/s/vrV8yNG7L9kqyIAeTx66NQ)</div>
 </div>
 <span class="pub-year">2026</span>
 </div>
@@ -86,7 +86,7 @@ output:
 <span class="pub-year">2024</span>
 </div>
 
-<div class="pub" data-year="2022" data-section="major">
+<div class="pub" data-year="2022" data-section="major featured">
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1093/jnci/djac157">Clinicopathological features and outcomes comparing patients with invasive ductal and lobular breast cancer.</a></div>
 <div class="pub-authors">Steffi Oesterreich^, Azadeh Nasrazadani^, <b>Jian Zou^</b>, Neil Carleton, …, George Tseng, Adrian V. Lee, Nicole Williams&#42;, Megan Kruse&#42;</div>
@@ -175,7 +175,7 @@ output:
 <span class="pub-year">2023</span>
 </div>
 
-<div class="pub" data-year="2021" data-section="collab">
+<div class="pub" data-year="2021" data-section="collab featured">
 <div>
 <div class="pub-title"><a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2778563">Outcomes after sentinel lymph node biopsy and radiotherapy in older women with early-stage, estrogen receptor–positive breast cancer.</a></div>
 <div class="pub-authors">Neil Carleton, <b>Jian Zou</b>, Yusi Fang, …, George C. Tseng, Oscar C. Marroquin, Adrian V. Lee&#42;, Priscilla F. McAuliffe&#42;</div>

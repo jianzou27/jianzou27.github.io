@@ -53,3 +53,10 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 * *2022.04* — [Mihaela Serban Award for Best Poster Presentation](https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster), *ASA Pittsburgh Chapter*
 * *2017.06* — Excellent Graduate, *CCNU*
 * *2016.08* — Second Prize, *National Life Science Innovation Experiment Contest*
+
+## Softwares
+
+* *[PaperDeck](https://github.com/jianzou75/PaperDeck/releases)* — A lightweight tool for managing and presenting academic literature
+* *[CASCAM](https://shiny.crc.pitt.edu/cascam_shiny/)* — Interactive web app implementing the CASCAM method
+
+

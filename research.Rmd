@@ -58,5 +58,6 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 
 * *[PaperDeck](https://github.com/jianzou75/PaperDeck/releases)* — A lightweight tool for managing and presenting academic literature
 * *[CASCAM](https://shiny.crc.pitt.edu/cascam_shiny/)* — Interactive web app implementing the CASCAM method
+* *[CardioMet12](https://www.cz-endo.com/)* — Cardiovascular diseases quick screening Tool
 
 

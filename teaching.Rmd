@@ -7,10 +7,9 @@ output:
 
 ## Teaching
 
-* *Teaching Fellow*, Biostatistics, CQMU, Fall 2025
-* *Teaching Fellow*, Medical Statistics, CQMU, Fall 2025
+* *Teaching Fellow*, Medical Statistics, CQMU, Fall 2025, Spring 2026
 * *Teaching Fellow (International)*, Biostatistics, CQMU, Spring 2025
-* *Teaching Fellow (Collaborative)*, Experimental Design, CQMU, Spring 2025
+* *Teaching Fellow (Collaborative)*, Experimental Design, CQMU, Spring 2025-26
 * *Teaching Fellow (Collaborative)*, Dissertation Writing, CQMU, Fall 2024–25
 * *Teaching Fellow (Collaborative)*, Public Health, CQMU, Fall 2024–25
 * *Teaching Fellow (Collaborative)*, Respiratory and Cancer Precision Medicine, CQMU, Falls and Springs 2023–26

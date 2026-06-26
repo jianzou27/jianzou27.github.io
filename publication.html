@@ -230,6 +230,12 @@ Major
 <button type="button" class="tab" data-section="collab">
 Collaborative
 </button>
+<button type="button" class="tab" data-section="patent">
+Patent
+</button>
+<button type="button" class="tab" data-section="award">
+Awards
+</button>
 </div>
 </section>
 <div data-filter-scope="">
@@ -584,6 +590,74 @@ Frontiers in Cell and Developmental Biology, 8, 234
 </div>
 </div>
 <!-- /.pub-list collab -->
+<!-- ============ PATENT =================================================
+     Inside [data-filter-scope] so the filter tabs act on it: it shows
+     under "All" and is hidden under the publication-category tabs.
+     counter-reset restarts the [n] numbering at [1] for this section.
+
+     Field mapping mirrors a publication entry:
+       pub-title → title              pub-authors → inventors
+       pub-venue → assignee / type    pub-venue-extra → numbers · status
+       pub-year  → year (also set data-year)
+     Duplicate the .pub block to add more patents. -->
+<div class="section-label">
+Patent
+</div>
+<div class="pub-list" style="counter-reset: pub;">
+<div class="pub" data-year="2026" data-section="patent">
+<div>
+<div class="pub-title">
+A multimodal data-fusion system for predicting diabetes risk after acute
+pancreatitis.
+</div>
+<div class="pub-authors">
+Tuo Li, Yiman Wang, Yongquan Shi, <b>Jian Zou</b>, Xinyi Cai, Bojuan Li,
+Yixian Lu, Hao Huang
+</div>
+<div class="pub-venue">
+ZL 2025 1 1714715.8
+</div>
+</div>
+<p><span class="pub-year">2026</span></p>
+</div>
+</div>
+<!-- /.pub-list patent -->
+<!-- ============ AWARDS ========================
+     Inside [data-filter-scope] so the Awards tab filters it. A tight,
+     un-numbered bullet list. filters.js treats .award like .pub, and
+     hides .award-list + its label when the active tab has no awards. -->
+<div class="section-label">
+Honors, awards and services
+</div>
+<ul class="award-list">
+<li class="award" data-section="award" data-year="2025">
+Outstanding Reviewer Award, <em>MedComm-Future Medicine</em>, 2025/12
+</li>
+<li class="award" data-section="award" data-year="2023">
+Dean’s Service Award, <em>UPitt Public Health</em>, 2023/04
+</li>
+<li class="award" data-section="award" data-year="2023">
+BIOST Best Graduate Student Researcher Award, <em>UPitt Biostat</em>,
+2023/04
+</li>
+<li class="award" data-section="award" data-year="2022">
+<a href="https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134">Student
+&amp; Early Career Travel Award</a>, <em>Symposium on Data Science &amp;
+Statistics</em>, 2022/04
+</li>
+<li class="award" data-section="award" data-year="2022">
+<a href="https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster">Mihaela
+Serban Award for Best Poster Presentation</a>, <em>ASA Pittsburgh
+Chapter</em>, 2022/04
+</li>
+<li class="award" data-section="award" data-year="2017">
+Excellent Graduate, <em>CCNU</em>, 2017/06
+</li>
+<li class="award" data-section="award" data-year="2016">
+Second Prize, <em>National Life Science Innovation Experiment
+Contest</em>, 2016/08
+</li>
+</ul>
 </div>
 <!-- /data-filter-scope -->
 

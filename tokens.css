@@ -40,6 +40,11 @@
   --data-5: #6B5B7A;   /* fuji 藤 */
   --data-6: #3A352E;   /* ink */
 
+  /* Solid category fills — filled chips/tabs with paper text;
+     darker tones of the data palette so light text stays legible */
+  --kincha-ink: #846941;   /* darker kincha 金茶 (data-4) */
+  --fuji:       #6B5B7A;   /* fuji 藤 (= data-5) */
+
   /* Dark surface (for reversed lockup / covers) */
   --dark:         #1C1A17;
   --dark-2:       #2A2622;

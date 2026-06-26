@@ -419,6 +419,30 @@ a:hover { color: var(--kaki); }
 .pub[hidden], .pub.is-hidden { display: none; }
 
 /* =========================================================
+   Awards — Teaching-style bullet list (serif text inherited from
+   .site-main ul > li). The dot marker is declared explicitly here so
+   every item keeps its bullet even if the list markup is hand-edited.
+   The .award / .award-list classes also let filters.js filter the
+   section; .is-hidden hides items the active tab excludes.
+   ========================================================= */
+.award-list .award {
+  position: relative;
+  padding: 4px 0 4px 22px;
+  list-style: none;
+}
+.award-list .award::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 15px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--ink-3);
+}
+.award-list .award.is-hidden { display: none; }
+
+/* =========================================================
    Filter — publications only, tag buttons only.
    No frame, no "Filters" label, no search box, no year.
    On presentations the whole .filters block is stripped
@@ -468,6 +492,18 @@ a:hover { color: var(--kaki); }
 .filter-tabs .tab[data-section="major"].is-active {
   background: var(--kon);
   border-color: var(--kon);
+}
+.filter-tabs .tab[data-section="collab"].is-active {
+  background: var(--seiji-ink);
+  border-color: var(--seiji-ink);
+}
+.filter-tabs .tab[data-section="patent"].is-active {
+  background: var(--kincha-ink);
+  border-color: var(--kincha-ink);
+}
+.filter-tabs .tab[data-section="award"].is-active {
+  background: var(--fuji);
+  border-color: var(--fuji);
 }
 
 /* =========================================================

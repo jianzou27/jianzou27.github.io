@@ -43,21 +43,3 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 <p>Three directions follow. First, we use <strong>large cohorts and routine clinical indices</strong> to evaluate how different definitions and combinations of metabolic abnormalities predict long-term outcomes. Second, we integrate <strong>multi-omics data with network analysis</strong> to identify molecular subtypes and modules that underlie distinct clinical patterns and risks. Third, we build <strong>dynamic models of metabolic trajectories</strong>, describing how people move between states and when interventions might reverse or stabilize these paths.</p>
 </div>
 </section>
-
-## Awards
-
-* *2025.12* — Outstanding Reviewer Award, *MedComm-Future Medicine*
-* *2023.04* — Dean's Service Award, *UPitt Public Health*
-* *2023.04* — BIOST Best Graduate Student Researcher Award, *UPitt Biostat*
-* *2022.04* — [Student & Early Career Travel Award](https://ww2.amstat.org/meetings/sdss/2022/onlineprogram/AbstractDetails.cfm?AbstractID=310134), *Symposium on Data Science & Statistics*
-* *2022.04* — [Mihaela Serban Award for Best Poster Presentation](https://www.sph.pitt.edu/news/jian-zou-awarded-mihaela-serban-memorial-award-best-poster), *ASA Pittsburgh Chapter*
-* *2017.06* — Excellent Graduate, *CCNU*
-* *2016.08* — Second Prize, *National Life Science Innovation Experiment Contest*
-
-## Softwares
-
-* *[PaperDeck](https://github.com/jianzou75/PaperDeck/releases)* — A lightweight tool for managing and presenting academic literature
-* *[CASCAM](https://shiny.crc.pitt.edu/cascam_shiny/)* — Interactive web app implementing the CASCAM method
-* *[CardioMet12](https://www.cz-endo.com/)* — Cardiovascular diseases quick screening Tool
-
-

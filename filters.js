@@ -16,8 +16,8 @@
   const count = root.querySelector('.filter-count');
 
   const scope = document.querySelector('[data-filter-scope]') || document;
-  const pubs = Array.from(scope.querySelectorAll('.pub'));
-  const lists = Array.from(scope.querySelectorAll('.pub-list'));
+  const pubs = Array.from(scope.querySelectorAll('.pub, .award'));
+  const lists = Array.from(scope.querySelectorAll('.pub-list, .award-list'));
   const labels = Array.from(scope.querySelectorAll('.section-label'));
 
   /* populate year dropdown from data-year attrs */
@@ -51,7 +51,7 @@
 
     /* hide empty list + its section label */
     lists.forEach(list => {
-      const visible = Array.from(list.querySelectorAll('.pub:not(.is-hidden)')).length;
+      const visible = Array.from(list.querySelectorAll('.pub:not(.is-hidden), .award:not(.is-hidden)')).length;
       list.classList.toggle('is-hidden', visible === 0);
       const label = list.previousElementSibling;
       if (label && label.classList.contains('section-label')) {
@@ -78,7 +78,7 @@
 
   /* hide list + label helpers */
   const style = document.createElement('style');
-  style.textContent = '.pub-list.is-hidden,.section-label.is-hidden{display:none}';
+  style.textContent = '.pub-list.is-hidden,.award-list.is-hidden,.section-label.is-hidden{display:none}';
   document.head.appendChild(style);
 
   apply();

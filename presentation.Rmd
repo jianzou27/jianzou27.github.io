@@ -14,9 +14,18 @@ output:
 
 <div class="pub-list">
 
+<div class="pub" data-year="2026">
+<div>
+<div class="pub-title">Meta- vs. Mega-analysis: A long-standing debate in omics data integration.</div>
+<div class="pub-venue">ICSA China Conference, Shenzhen</div>
+<div class="pub-venue-extra">Invited Talk</div>
+</div>
+<span class="pub-year">2026</span>
+</div>
+
 <div class="pub" data-year="2025">
 <div>
-<div class="pub-title">Mega vs. Meta in omics data integration: applications and methodological innovations.</div>
+<div class="pub-title">Mega vs. Meta in omics data integration: Applications and methodological innovations.</div>
 <div class="pub-venue">Biostatistics Conference, Chongqing</div>
 <div class="pub-venue-extra">Invited Talk</div>
 </div>

@@ -114,9 +114,9 @@ output:
 
 <div class="pub" data-year="2026" data-section="collab">
 <div>
-<div class="pub-title">Systemic and local chronic inflammation and hormone disposition promote a tumor-permissive environment for breast cancer in older women.</div>
+<div class="pub-title"><a href="https://doi.org/10.1038/s43587-026-01173-4">Systemic and local chronic inflammation and hormone disposition promote a tumor-permissive environment for breast cancer in older women.</a></div>
 <div class="pub-authors">Neil Carleton, Alexander CC Chang, Sanghoon Lee, Ruxuan Li, <b>Jian Zou</b>, …, George C Tseng, Michael T Lotze, Priscilla F McAuliffe, Ioannis K Zervantonakis, Steffi Oesterreich, Adrian V Lee&#42;</div>
-<div class="pub-venue">Nature Aging, Accepted</div>
+<div class="pub-venue">Nature Aging</div>
 </div>
 <span class="pub-year">2026</span>
 </div>
@@ -125,7 +125,7 @@ output:
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2, a truncated form of the HER2 oncoprotein, drives an immunosuppressive program in HER2+ breast cancer that limits trastuzumab deruxtecan efficacy.</a></div>
 <div class="pub-authors">Dong Hu&#42;, Xiaoshuang Lyu, Zheqi Li, …, <b>Jian Zou</b>, George Tseng, Tullia Bruno, Adrian Lee, Steffi Oesterreich, Norman Wolmark, Carmen Allegra, Samuel Jacobs, Linda McAllister-Lucas&#42;, Peter Lucas&#42;</div>
-<div class="pub-venue">Nature Cancer, 1–12</div>
+<div class="pub-venue">Nature Cancer, 6, 1202–1222</div>
 </div>
 <span class="pub-year">2025</span>
 </div>

@@ -60,6 +60,17 @@ output:
 <span class="pub-year">2025</span>
 </div>
 
+
+<div class="pub" data-year="2024">
+<div>
+<div class="pub-title"><a href="https://doi.org/10.1158/1538-7445.SABCS23-PO1-14-09">Abstract PO1-14-09: Age-related remodeling of the systemic and breast microenvironment promotes a tumor-permissive locale for ER+ breast cancer in older women.</a></div>
+<div class="pub-authors">2nd author</div>
+<div class="pub-venue">San Antonio Breast Cancer Symposium</div>
+<div class="pub-venue-extra">Poster</div>
+</div>
+<span class="pub-year">2024</span>
+</div>
+
 <div class="pub" data-year="2024">
 <div>
 <div class="pub-title"><a href="downloads/presentations/2024_EcoSta.pdf">Mutual information for detecting multi-class biomarkers when integrating multiple omics studies.</a></div>
@@ -114,24 +125,6 @@ output:
 <span class="pub-year">2021</span>
 </div>
 
-<div class="pub" data-year="2019">
-<div>
-<div class="pub-title"><a href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical assessment of depth normalization methods for microRNA sequencing.</a></div>
-<div class="pub-venue">11th ICSA International Conference, Hangzhou</div>
-<div class="pub-venue-extra">Invited Talk</div>
-</div>
-<span class="pub-year">2019</span>
-</div>
-
-<div class="pub" data-year="2024">
-<div>
-<div class="pub-title"><a href="https://doi.org/10.1158/1538-7445.SABCS23-PO1-14-09">Abstract PO1-14-09: Age-related remodeling of the systemic and breast microenvironment promotes a tumor-permissive locale for ER+ breast cancer in older women.</a></div>
-<div class="pub-authors">2nd author</div>
-<div class="pub-venue">San Antonio Breast Cancer Symposium</div>
-<div class="pub-venue-extra">Poster</div>
-</div>
-<span class="pub-year">2024</span>
-</div>
 
 <div class="pub" data-year="2020">
 <div>
@@ -151,6 +144,15 @@ output:
 <div class="pub-venue-extra">Poster</div>
 </div>
 <span class="pub-year">2020</span>
+</div>
+
+<div class="pub" data-year="2019">
+<div>
+<div class="pub-title"><a href="downloads/presentations/2019_ICSA_normalization.pdf">Statistical assessment of depth normalization methods for microRNA sequencing.</a></div>
+<div class="pub-venue">11th ICSA International Conference, Hangzhou</div>
+<div class="pub-venue-extra">Invited Talk</div>
+</div>
+<span class="pub-year">2019</span>
 </div>
 
 </div><!-- /.pub-list -->

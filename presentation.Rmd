@@ -125,7 +125,6 @@ output:
 <span class="pub-year">2021</span>
 </div>
 
-
 <div class="pub" data-year="2020">
 <div>
 <div class="pub-title"><a href="https://aacrjournals.org/cancerres/article/81/4_Supplement/PS11-02/648201/Abstract-PS11-02-Comprehensive-comparative">Abstract PS11-02: Comprehensive comparative analysis of invasive ductal and lobular breast cancer cases in Great Lakes Breast Cancer Consortium.</a></div>

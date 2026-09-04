@@ -51,7 +51,7 @@ output:
 <span class="pub-year">2026</span>
 </div>
 
-<div class="pub" data-year="2026" data-section="major featured">
+<div class="pub" data-year="2026" data-section="major">
 <div>
 <div class="pub-title"><a href="https://doi.org/10.1002/mco2.70967">Unraveling the metabolic-cardiovascular disease nexus: An epidemiological network analysis identifies central indicators.</a></div>
 <div class="pub-authors">Xin-yi Cai, Jia-feng Zhang, Hao Huang, Wei Tang, Qian Lv, Yan Song, Xing-xing Zhang, Quan-cai Cai, <b>Jian Zou&#42;</b>, Yong-quan Shi&#42;, Tuo Li&#42;</div>

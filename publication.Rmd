@@ -41,7 +41,26 @@ output:
 <div class="section-label">Major Work</div>
 <div class="pub-list">
 
+
 <div class="pub" data-year="2026" data-section="major featured">
+<div>
+<div class="pub-title">Contextual evaluation of microRNA sequencing data harmonization for sample clustering</div>
+<div class="pub-authors"><b>Jian Zou</b>, Yannick Düren, Xinyi Wang, Ying Xiang, Yunhui Qi, Miao Wang, Yilin Wu, Samuel Singer, Li-Xuan Qin&#42;</div>
+<div class="pub-venue">Briefings in Bioinformatics, Accepted</div>
+</div>
+<span class="pub-year">2026</span>
+</div>
+
+<div class="pub" data-year="2026" data-section="major featured">
+<div>
+<div class="pub-title"><a href="https://doi.org/10.1002/mco2.70967">Unraveling the metabolic-cardiovascular disease nexus: An epidemiological network analysis identifies central indicators.</a></div>
+<div class="pub-authors">Xin-yi Cai, Jia-feng Zhang, Hao Huang, Wei Tang, Qian Lv, Yan Song, Xing-xing Zhang, Quan-cai Cai, <b>Jian Zou&#42;</b>, Yong-quan Shi&#42;, Tuo Li&#42;</div>
+<div class="pub-venue">MedComm, 7(9), e70967</div>
+</div>
+<span class="pub-year">2026</span>
+</div>
+
+<div class="pub" data-year="2026" data-section="major">
 <div>
 <div class="pub-title"><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></div>
 <div class="pub-authors"><u>Yuanning Hu</u>, Wei Zong, <u>Juncheng Wang</u>, Manqi Cai, <b>Jian Zou&#42;</b></div>

@@ -39,6 +39,7 @@ Across projects, we keep a simple checklist: state assumptions clearly, handle b
 <div class="area-meta"><div class="tag-col">Line 03 · Metabolic Syndromes</div></div>
 <div>
 <h3 class="area-title">Statistical modeling of metabolic syndromes.</h3>
+<div class="area-refs">[MedComm, 2026](https://doi.org/10.1002/mco2.70967)</div>
 <p>Metabolic syndromes are major contributors to cardiovascular disease, but in practice they are often handled as a simple yes/no label. We instead view metabolic health as the state of a connected biological system that changes over time, shaped by interacting organs, pathways, and environments.</p>
 <p>Three directions follow. First, we use <strong>large cohorts and routine clinical indices</strong> to evaluate how different definitions and combinations of metabolic abnormalities predict long-term outcomes. Second, we integrate <strong>multi-omics data with network analysis</strong> to identify molecular subtypes and modules that underlie distinct clinical patterns and risks. Third, we build <strong>dynamic models of metabolic trajectories</strong>, describing how people move between states and when interventions might reverse or stabilize these paths.</p>
 </div>

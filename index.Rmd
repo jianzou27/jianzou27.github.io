@@ -15,9 +15,9 @@ output:
 </div>
 <aside class="side">
 <div class="side-label">Recent</div>
-<div class="side-item"><b><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></b><i>TIO · 2026</i></div>
-<div class="side-item"><b><a href="https://doi.org/10.1093/bioinformatics/btae696">Mutual information for multi-class biomarker detection.</a></b><i>Bioinformatics · 2024</i></div>
-<div class="side-item"><b><a href="https://doi.org/10.1371/journal.pcbi.1011754">Systems approach to cancer-model selection (CASCAM).</a></b><i>PLoS Comput Biol · 2024</i></div>
-<div class="side-item"><b><a href="https://doi.org/10.1038/s43018-025-00969-4">p95HER2 drives an immunosuppressive program in HER2+ breast cancer.</a></b><i>Nature Cancer · 2025</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1093/bib/bbag514">Contextual evaluation of microRNA sequencing data harmonization for sample clustering.</a></b><i>Briefings in Bioinformatics · 2026</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1002/mco2.70967">Mapping the metabolic–cardiovascular disease nexus through epidemiological network analysis.</a></b><i>MedComm · 2026</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.1038/s43587-026-01173-4">Inflammation and hormone disposition promote a tumor-permissive environment in older women.</a></b><i>Nature Aging · 2026</i></div>
+<div class="side-item"><b><a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">Redefining the tumor digital twin through cross-domain manifold mapping.</a></b><i>The Innovation Oncology · 2026</i></div>
 </aside>
 </section>

@@ -197,134 +197,131 @@ pre code {
 split by the Yangtze River, and earned my PhD in <a
 href="https://en.wikipedia.org/wiki/Pittsburgh">Pittsburgh</a>, where
 the Allegheny and Monongahela meet to form the Ohio. In both cities,
-bridges shape daily life. They do more than link two banks; they keep
-people, goods, and information moving.</p>
-<p>I see my work in biostatistics in the same way. Modern biomedicine
-has two shores. On one side are statistics and artificial intelligence,
-where we develop models and algorithms. On the other side is clinical
-medicine, where clinicians must act for real patients under time,
-safety, and cost constraints. Our research builds the bridge between
-them. We turn complex data into tools that clinicians can understand,
-test, and use.</p>
-<p>At the center of this work is an idea I call <strong>precision
-medicine for all</strong>. Precision medicine should not serve only a
-narrow group of patients who are easy to study or well represented in
-trials. A bridge that carries only one kind of traffic has failed; in
-the same way, a model that works only in one ancestry group, one
-hospital, or one dataset does not meet our standard. We design methods
-that travel across populations, centers, and platforms and still perform
-in a predictable way.</p>
-<p>Across projects, we keep a simple checklist: state assumptions
-clearly, handle batch effects and confounding, measure uncertainty, and
-test generalization. We release our work as reproducible software. In
-this way, the bridge from data to decision is visible and can be
-inspected and improved by others.</p>
+bridges shape daily life, keeping people, goods, and information
+moving.</p>
+<p>I see my work in biostatistics in a similar way. Statistics and
+artificial intelligence provide tools for learning from complex data,
+while biology and clinical medicine give us the questions that guide
+this learning. Our research connects the two. We aim to produce findings
+that researchers can investigate and predictions that clinicians can
+understand, evaluate, and use.</p>
+<p>My research focuses on <strong>generalizable statistical learning for
+biomedical data science</strong>. We study how to learn disease-related
+information from heterogeneous data and determine when it remains
+informative across populations, measurement platforms, and clinical
+settings. Our work in cancer biology and metabolic disease informs the
+statistical questions we pursue. The methods we develop, in turn, help
+us investigate disease across different sources of evidence.</p>
 <div id="research-interests" class="section level2">
 <h2>Research Interests</h2>
 <section class="area">
 <div class="area-meta">
 <div class="tag-col">
-Line 01 · Cell-Line-Like-Me
+Line 01 · Method
 </div>
 </div>
 <div>
 <h3 class="area-title">
-A framework for statistical congruence between preclinical models and
-human tumors.
+Generalizable Statistical Learning.
 </h3>
 <div class="area-refs">
-<a href="https://doi.org/10.59717/j.xinn-oncol.2026.100012">The
-Innovation Oncology, 2026</a>; <a
-href="https://doi.org/10.1371/journal.pcbi.1011754">PLoS Comput Biol,
-2024</a>; <a href="https://doi.org/10.3389/fgene.2021.823431">Front
-Genet, 2022</a>
-</div>
-<p>
-Many cancer drugs fail because the preclinical models that support them
-do not reflect the tumors seen in patients. Cell lines, organoids, and
-animal models each capture only parts of human disease, and mismatches
-at this stage can propagate to late-stage trials. We frame this
-translational gap as a problem of <em>statistical congruence</em>
-between models and human tumors across species, platforms, and studies.
-</p>
-<p>
-We develop three parallel lines of work: <strong>direct
-harmonization</strong> quantifies global molecular similarity and basic
-compatibility; <strong>latent-factor and mixture models</strong> recover
-shared biological programs — pathways or regulatory modules — and match
-models and patients at that level rather than gene by gene;
-<strong>flexible representation learning</strong>, including deep
-learning, aligns feature spaces while absorbing technical and species
-differences. Together these define “cell-line-like-me” avatars that
-guide model selection, drug prioritization, and study design.
-</p>
-</div>
-</section>
-<section class="area">
-<div class="area-meta">
-<div class="tag-col">
-Line 02 · Tumor Metastasis
-</div>
-</div>
-<div>
-<h3 class="area-title">
-Machine learning for tumor metastasis.
-</h3>
-<div class="area-refs">
+<a href="https://doi.org/10.1093/bib/bbag514">Brief Bioinform, 2026</a>;
 <a href="https://doi.org/10.1093/bioinformatics/btae696">Bioinformatics,
-2024</a>
+2024</a>; <a href="https://doi.org/10.1371/journal.pcbi.1011754">PLoS
+Comput Biol, 2024</a>
 </div>
 <p>
-Most cancer deaths are caused by metastasis rather than the primary
-tumor. Metastasis reflects a chain of events involving tumor cells,
-microenvironment, and host response, which no single dataset measures
-fully. Bulk and single-cell studies often give partial and sometimes
-conflicting pictures. The central challenge is to extract <em>stable
-metastatic programs</em> that hold across cohorts and platforms.
+Biomedical data reflect both disease and how it is observed. Differences
+between datasets may arise from biology, patient selection, measurement,
+or clinical practice. These sources of variation can be difficult to
+separate, particularly when biological differences coincide with
+differences in how studies were conducted. We develop statistical
+methods to account for these sources of variation while preserving
+information relevant to the biomedical question. We examine which
+distinctions the data support and how conclusions change under different
+assumptions.
 </p>
 <p>
-We organize this work into three directions. First, <strong>multimodal
-risk prediction</strong> models that combine multi-omics and clinical
-data to stratify metastatic risk in a way that can move across cohorts
-and centers. Second, <strong>intra-tumor heterogeneity and the tumor
-microenvironment</strong>, including metabolite-constrained modules and
-cell–cell interactions that may drive metastatic escape and
-colonization. Third, <strong>quantitative models of the metastatic
-cascade</strong>, linking risk scores and molecular modules to
-stage-to-stage transitions and potential intervention points.
+We study how information can be shared across studies at the level of
+individual measurements, relationships among measurements, or their
+associations with outcomes. We ask what should be learned for a
+particular purpose, which evidence can be combined across sources, and
+whether the resulting findings or predictions remain useful in new
+samples and settings. When they do not, we seek to understand why and
+what needs to change. Across this work, we state assumptions clearly,
+quantify uncertainty, evaluate generalizability, and make our analyses
+reproducible.
 </p>
 </div>
 </section>
 <section class="area">
 <div class="area-meta">
 <div class="tag-col">
-Line 03 · Metabolic Syndromes
+Line 02 · Omics Data
 </div>
 </div>
 <div>
 <h3 class="area-title">
-Statistical modeling of metabolic syndromes.
+Cancer Biology and Progression.
+</h3>
+<div class="area-refs">
+<a href="https://doi.org/10.1093/jnci/djac157">JNCI, 2022</a>
+</div>
+<p>
+Our cancer research focuses on the biological processes involved in
+recurrence and metastasis, with a particular interest in breast cancer.
+We study why tumors with similar features at diagnosis follow different
+courses after treatment. We examine how cancer cells persist, interact
+with surrounding tissue, and grow at distant sites.
+</p>
+<p>
+We use omics data to characterize the molecular programs associated with
+these processes. A molecular signal may reflect changes within cancer
+cells, differences in the cells present in a sample, or both. We ask
+which programs are shared across tumors and how their relationships with
+disease depend on biological context. These questions motivate methods
+for comparing evidence across studies and assessing how biological and
+measurement differences affect the interpretation of molecular findings.
+</p>
+<p>
+We also investigate which aspects of patient tumor biology are preserved
+in cell lines, organoids, and animal models. The suitability of a model
+depends on the biological process being studied and the cellular context
+it requires. We use these comparisons to guide the selection of
+experimental models for testing hypotheses about progression and
+treatment response.
+</p>
+</div>
+</section>
+<section class="area">
+<div class="area-meta">
+<div class="tag-col">
+Line 03 · Clinical Data
+</div>
+</div>
+<div>
+<h3 class="area-title">
+Metabolic Health and Disease.
 </h3>
 <div class="area-refs">
 <a href="https://doi.org/10.1002/mco2.70967">MedComm, 2026</a>
 </div>
 <p>
-Metabolic syndromes are major contributors to cardiovascular disease,
-but in practice they are often handled as a simple yes/no label. We
-instead view metabolic health as the state of a connected biological
-system that changes over time, shaped by interacting organs, pathways,
-and environments.
+Our metabolic research examines how disturbances in metabolic regulation
+develop, persist, and resolve, and why disease courses differ between
+individuals. We study how metabolic abnormalities occur together and
+change over time, and how these changes relate to disease onset,
+progression, and recovery. We seek to understand how these disease
+courses are reflected in clinical measurements.
 </p>
 <p>
-Three directions follow. First, we use <strong>large cohorts and routine
-clinical indices</strong> to evaluate how different definitions and
-combinations of metabolic abnormalities predict long-term outcomes.
-Second, we integrate <strong>multi-omics data with network
-analysis</strong> to identify molecular subtypes and modules that
-underlie distinct clinical patterns and risks. Third, we build
-<strong>dynamic models of metabolic trajectories</strong>, describing
-how people move between states and when interventions might reverse or
-stabilize these paths.
+We use population cohorts and longitudinal clinical data to investigate
+these questions through relationships among measurements and changes
+within individuals. We ask which patterns reflect common features of
+disease progression and which vary with the population or clinical
+context. Our methodological work supports these comparisons by
+accounting for differences in observation and care and assessing whether
+the resulting patterns remain informative across clinical settings.
 </p>
 </div>
 </section>

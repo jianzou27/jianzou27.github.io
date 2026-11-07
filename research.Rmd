@@ -28,7 +28,7 @@ My research focuses on **generalizable statistical learning for biomedical data 
 <div class="area-meta"><div class="tag-col">Line 02 · Omics Data</div></div>
 <div>
 <h3 class="area-title">Cancer Biology and Progression.</h3>
-<div class="area-refs">[JNCI, 2022](https://doi.org/10.1093/jnci/djac157)</div>
+<div class="area-refs">[JAMA Network Open, 2026](https://doi.org/10.1001/jamanetworkopen.2026.43218); [JNCI, 2022](https://doi.org/10.1093/jnci/djac157)</div>
 <p>Our cancer research focuses on the biological processes involved in recurrence and metastasis, with a particular interest in breast cancer. We study why tumors with similar features at diagnosis follow different courses after treatment. We examine how cancer cells persist, interact with surrounding tissue, and grow at distant sites.</p>
 <p>We use omics data to characterize the molecular programs associated with these processes. A molecular signal may reflect changes within cancer cells, differences in the cells present in a sample, or both. We ask which programs are shared across tumors and how their relationships with disease depend on biological context. These questions motivate methods for comparing evidence across studies and assessing how biological and measurement differences affect the interpretation of molecular findings.</p>
 <p>We also investigate which aspects of patient tumor biology are preserved in cell lines, organoids, and animal models. The suitability of a model depends on the biological process being studied and the cellular context it requires. We use these comparisons to guide the selection of experimental models for testing hypotheses about progression and treatment response.</p>

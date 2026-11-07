@@ -43,9 +43,9 @@ output:
 
 <div class="pub" data-year="2026" data-section="major">
 <div>
-<div class="pub-title"><a href="https://doi.org/10.1001/jamanetworkopen.2026.43218">Primary endocrine therapy vs upfront surgery for older women with estrogen receptor–positive breast cancer: A systematic review and meta-analysis</a></div>
+<div class="pub-title"><a href="https://doi.org/10.1001/jamanetworkopen.2026.43218">Primary endocrine therapy vs upfront surgery for older women with estrogen receptor–positive breast cancer: A systematic review and meta-analysis.</a></div>
 <div class="pub-authors">Neil Carleton&#42;^, <b>Jian Zou^</b>, <u>Yangyang Mu</u>, Steffi Oesterreich, Shannon Puhalla, Julia Foldi, George Tseng, Adrian V. Lee, Priscilla F. McAuliffe</div>
-<div class="pub-venue">JAMA Network Open, 9(11),e2643218</div>
+<div class="pub-venue">JAMA Network Open, 9(11), e2643218</div>
 </div>
 <span class="pub-year">2026</span>
 </div>

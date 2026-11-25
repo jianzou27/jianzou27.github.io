@@ -141,9 +141,18 @@ output:
 
 <div class="pub" data-year="2026" data-section="collab">
 <div>
+<div class="pub-title">Comprehensive benchmarking and practitioner’s guide of copy number variation inference from single-cell RNA sequencing.</a></div>
+<div class="pub-authors">Hung-Ching Chang, Yuxin Shi, Haoyu Cheng, <b>Jian Zou</b>, …, Steffi Oesterreich, Adrian V Lee, George C. Tseng&#42;</div>
+<div class="pub-venue">Genome Biology, Accepted</div>
+</div>
+<span class="pub-year">2026</span>
+</div>
+
+<div class="pub" data-year="2026" data-section="collab">
+<div>
 <div class="pub-title"><a href="https://doi.org/10.1038/s43587-026-01173-4">Systemic and local chronic inflammation and hormone disposition promote a tumor-permissive environment for breast cancer in older women.</a></div>
 <div class="pub-authors">Neil Carleton, Alexander CC Chang, Sanghoon Lee, Ruxuan Li, <b>Jian Zou</b>, …, George C Tseng, Michael T Lotze, Priscilla F McAuliffe, Ioannis K Zervantonakis, Steffi Oesterreich, Adrian V Lee&#42;</div>
-<div class="pub-venue">Nature Aging</div>
+<div class="pub-venue">Nature Aging, 6, 1695–1716</div>
 </div>
 <span class="pub-year">2026</span>
 </div>
